@@ -82,16 +82,14 @@ image l_sy:
     "lil_sympathetic"
     zoom 0.65
 
-#Nat images for dialouge#
+
+
+
 image n_n:
     "nat_neutral.png"
     zoom 0.5
-image n_h:
-    "nat_happy"
-    zoom 0.4
-#image n_n_s_sp:
-    "nat_neutral_smile_speaking"
-    zoom 0.54
+
+
 image n_n_s_sp:
     "nat_neutral_smile_speaking"
     zoom 0.5 

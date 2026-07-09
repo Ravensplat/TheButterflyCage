@@ -12,11 +12,12 @@ label start:
     nrt "Your brain feels like it’s being forced through a grated tube that it doesn’t quite fit through."
     nrt "Your dry mouth tastes distinctly of metal, like you spent the whole night chewing on copper coins."
     nrt "You could keep going, but you can barely even feel your limbs properly, so you’ll get to enjoy the steadily developing feeling of the {b}rest{/b} of your body feeling like shit soon enough."
-
+    
     # Insert the visual background of the bedroom, with an iris opening transition, before the iris closes, returning to black screen.
     scene bedroom_day with in_eye
     scene black_bg at double with out_eye
-    nth ne "{i}That{/i} was a mistake."
+    
+    nth ag_se_sp "{i}That{/i} was a mistake."
     nth tbx ne "Ow…"
     # Expression change to nat_ap
     nth "Just how much did I drink last night?"
