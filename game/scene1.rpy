@@ -17,7 +17,7 @@ label start:
     scene bedroom_day with in_eye
     scene black_bg at double with out_eye
     
-    nth ne "{i}That{/i} was a mistake."
+    nth ag_se_sp "{i}That{/i} was a mistake."
     nth tbx ne "Ow…"
     # Expression change to nat_ap
     nth "Just how much did I drink last night?"
