@@ -1,4 +1,4 @@
-label start:
+label temp:
     scene bg_bar 
 
 
