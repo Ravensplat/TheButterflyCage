@@ -3,19 +3,25 @@
 image nat_happy: 
     "nat_happy"
 
-define nat = Character("Natalie", who_color="#ffffff", image="n", window_background="tb_n")
+define nat = Character("", who_color="#ffffff", image="n", window_background="tb_n", namebox_background="nat_namebox")
 
-define lil = Character("Lillian",who_color="#ffffff", window_background="tb_n")
+define lil = Character("",who_color="#ffffff", window_background="tb_n",namebox_background="lil_namebox")
 
-define cra = Character("Ciara", who_color="#ffffff", window_background="tb_n")
+define cra = Character("", who_color="#ffffff", window_background="tb_n", namebox_background="cra_namebox")
 
-define nth = Character("Natalie", who_color ="#ffffff", window_background="tb_n", image="n")#thoughts
+define nth = Character("", who_color ="#ffffff", window_background="tb_n", namebox_background="nat_namebox", image="n")#thoughts
 
 define nrt = Character(None, what_color= "#ffd710", image="n", what_italic=True, window_background="tb_nar")
 
 
 image side n txb = "tb_n"
 
+image nat_namebox: 
+    "images/Natalie_nametag.png", zoom 0.35,
+image lil_namebox:
+    "images/Lillian_nametag.png", zoom 0.35
+image cra_namebox:
+    "image/Ciara_nametag.png", zoom 0.35
 
 
 image side n ag_sd_sp: 
@@ -83,9 +89,14 @@ image side n sd_bl_s_sp:
 image side n sd_bl_s:
     "nat_sideeye_blush_smile", zoom 0.5
 image side n su_bl_sp:
-    "nat_suprised_blush_speaking", zoom 0.5
+    "nat_surprised_blush_speaking", zoom 0.5
 image side n su_bl:
-    "nat_suprised_blush", zoom 0.5
+    "nat_surprised_blush", zoom 0.5
+image side n su_sp:
+    "nat_surprised_speaking", zoom 0.5
+image side n su:
+    "nat_sur
+    prised", zoom 0.5
 image side n sy_sp:
     "nat_sympathetic_speaking", zoom 0.5
 image side n sy:

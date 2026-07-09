@@ -51,7 +51,7 @@ label start:
     nth "Holy shit this place is {i}fancy.{/i} Hotel room?"
     nrt "What kind of hotel room has taxidermy butterflies on the wall, you idiot."
     #Expression change to nat_n
-    nth "Right. Where {i}am{/i} I then?"
+    nth ne "Right. Where {i}am{/i} I then?"
     #Expression change to nat_su
     nth "Wait, is that…"
 
@@ -148,8 +148,7 @@ label start:
     # Expression change to l_n_s
     hide l_n_s_sp
     show l_n_s
-    show n_n_s_sp
-    nat "Lillian!"
+    nat su_sp "Lillian!"
     nat "I was hoping— I mean— I literally {i}just{/i} figured out I must be at your place!"
     # Expression change to nat_ap_sp
     nat "Shit I’m so sorry for all the trouble. You really didn’t have to, I mean, thanks so much for doing this. And for the banana! And the water!"
@@ -326,7 +325,7 @@ label start:
     lil "And if it means I get to spend a little more time catching up? Then all the better."
     # Expression change to nat_shy_b
     # Expression change to l_h_b
-    hide l_h_sp_b
+    hide l_n_s_b_sp
     show l_h_b
     nth "I’M DEAD"
     # Expression change to nat_shy_b_sp

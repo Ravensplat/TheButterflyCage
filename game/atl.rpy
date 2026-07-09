@@ -84,16 +84,6 @@ image l_sy:
 
 
 
-
-image n_n:
-    "nat_neutral.png"
-    zoom 0.5
-
-
-image n_n_s_sp:
-    "nat_neutral_smile_speaking"
-    zoom 0.5 
-    
 image tb_n:
     "textbox_normal"
     zoom 0.35
