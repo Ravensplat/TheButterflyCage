@@ -110,3 +110,7 @@ image tb_nar:
 image bed_day:
     "bedroom_day"
     zoom 0.5
+
+image bg_bar:
+    "bar"
+    zoom 0.5
