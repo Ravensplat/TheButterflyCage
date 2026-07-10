@@ -185,6 +185,15 @@ label flashback1:
     show c_ch_ec at char_right
     show l_bar_h_sp at char_left
     lil "Good evening, both of you!"
+    # hide l_bar_h_sp
+    # hide c_ch_ec
+
+    # show l_bar_n 
+    # wai "Could I get you anything else, hun?"
+    # nat bar_su_sp "Oh!, uh-"
+    # hide l_bar_n
+    # show l_bar_ag_sp
+    # lil "She's fine."
 
 
 
