@@ -1,6 +1,7 @@
 label start: 
 
     scene black_bg at double
+    
 
     # Open on black screen. Not sure if it should be no music or like quiet ambient stuff, will have to ask Khaz.
     # All narrator text should be yellow and italicised. I don’t know if you can set the italicised part at the start so I can go through and add the italic marker to all of the narrator text if needed.
@@ -20,17 +21,18 @@ label start:
     nth ag_se_sp "{i}That{/i} was a mistake."
     nth tbx ne "Ow…"
     # Expression change to nat_ap
-    nth "Just how much did I drink last night?"
+    nth ap "Just how much did I drink last night?"
 
     # Insert bar background shot. If we can make it look a bit hazier, possibly like a paint smudging effect, that would be great. Might ask Flor about that.
-    scene Bar
+    scene bg_bar
+    show nat_namebox
     nrt "You try to remember the previous night. You were… out at a bar? Probably. Would definitely explain the whole {b}feeling like shit{/b} thing."
     nrt "You think you were with someone. Multiple someones? People you hadn’t seen for a while."
     nrt "Although given how badly you isolate yourself, that describes almost everyone except your work colleagues. So it wasn’t a work party, not that you ever go to those anyway."
 
     # Expression change to nat_ap
-    nth "I think… I remember…"
-    nrt "Girl you don’t remember shit."
+    nth ap "I think… I remember…"
+    nrt  "Girl you don’t remember shit."
 
     # Return to black screen
     scene black_bg at double
@@ -414,7 +416,7 @@ label start:
     show l_h_b
     # Expression change to nat_h_b_sp
     nat "Haha!"
-    # Expression change to nat_n_s_sideeye_b_sp
+    # Expression change to nat_sd_bl_s_sp
     nat "OK, understood. You can spoil me a {i}little{/i} longer, so long as it’ll make you happy."
     nrt "Oh you think you’re {b}so{/b} smooth, hm?"
     # Expression change to l_h_sp_b

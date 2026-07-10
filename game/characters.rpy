@@ -9,13 +9,22 @@ define lil = Character("",who_color="#ffffff", window_background="tb_n",namebox_
 
 define cra = Character("", who_color="#ffffff", window_background="tb_n", namebox_background="cra_namebox")
 
-define nth = Character("", who_color ="#ffffff", window_background="tb_n", namebox_background="nat_namebox", image="n")#thoughts
+define nth = Character("", who_color ="#ffffff", window_background="tb_n",namebox_background="nat_namebox",  image="n")#thoughts
 
 define nrt = Character(None, what_color= "#ffd710", what_italic=True, window_background="tb_nar")
 
-define wai = Character("Waiter", who_color ="#ffffff", what_color = "#ffffff", window_background="tb_n")
+define wai = Character("", who_color ="#ffffff",  window_background="tb_n", namebox_background="wai_namebox")
 
 image side n txb = "tb_n"
+
+image nat_namebox: 
+    "images/nat_namebox.png", zoom 0.35
+image lil_namebox:
+    "images/Lillian_nametag.png", zoom 0.35
+image cra_namebox:
+    "image/Ciara_nametag.png", zoom 0.35
+image wai_namebox:
+    "image/waiter_nametag.png" zoom 0.35
 
 
 #nat_images
@@ -90,8 +99,7 @@ image side n su_bl:
 image side n su_sp:
     "nat_surprised_speaking", zoom 0.5
 image side n su:
-    "nat_sur
-    prised", zoom 0.5
+    "nat_surprised", zoom 0.5
 image side n sy_sp:
     "nat_sympathetic_speaking", zoom 0.5
 image side n sy:
