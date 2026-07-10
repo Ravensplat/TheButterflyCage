@@ -87,7 +87,7 @@ image side n sh_bl:
 image side n sd_bl_s_sp:
     "nat_sideeye_blush_smile_speaking", zoom 0.5
 image side n sd_bl_s:
-    "nat_sideeye_blush_smile", zoom 0.5
+    "nat_sideeye_blush_smile", zoom 0.5 
 image side n su_bl_sp:
     "nat_surprised_blush_speaking", zoom 0.5
 image side n su_bl:
