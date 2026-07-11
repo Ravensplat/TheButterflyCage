@@ -1,5 +1,5 @@
 label flashback1:
-    scene bg_bar
+    scene bg_bar with fade
     nrt "A little more of the night seems to have become clear to you, thankfully. Or perhaps not so thankfully, given how badly you apparently embarrassed yourself."
     nrt "Although embarrassing yourself isn't really anything new for you, is it?"
     nrt "You remember your arrival, that the bar was busy enough that it took you a while of wandering around aimlessly to find the right table, but not quite so bustling that you’d struggle to hear each other."

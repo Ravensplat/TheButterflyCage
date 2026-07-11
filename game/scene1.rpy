@@ -15,7 +15,8 @@ label start:
     nrt "You could keep going, but you can barely even feel your limbs properly, so you’ll get to enjoy the steadily developing feeling of the {b}rest{/b} of your body feeling like shit soon enough."
     
     # Insert the visual background of the bedroom, with an iris opening transition, before the iris closes, returning to black screen.
-    scene bedroom_day with in_eye
+    scene bedroom_day at half with in_eye:
+        blur 25
     scene black_bg at double with out_eye
     
     nth ag_sd_sp "{i}That{/i} was a mistake."
@@ -24,7 +25,8 @@ label start:
     nth ap "Just how much did I drink last night?"
 
     # Insert bar background shot. If we can make it look a bit hazier, possibly like a paint smudging effect, that would be great. Might ask Flor about that.
-    scene bg_bar
+    scene bg_bar:
+        blur 25    
  
     nrt "You try to remember the previous night. You were… out at a bar? Probably. Would definitely explain the whole {b}feeling like shit{/b} thing."
     nrt "You think you were with someone. Multiple someones? People you hadn’t seen for a while."
@@ -42,12 +44,14 @@ label start:
     nat su_sp "WAIT SHIT."
 
     # Eyelid opening animation again, much quicker. Room background comes into view, slightly blurry.
-    scene bedroom_day at half
+    scene bedroom_day at half with in_eye:
+        blur 16
     # Expression change to nat_su
     nth su "Where the hell {i}is{/i} here!?"
     nth su "This isn’t my room!"
 
     # Room background fully comes into focus, removing the blur.
+    scene bedroom_day at half with dissolve
 
     #Expression change to nat_n_s
     nth ne_s "Holy shit this place is {i}fancy.{/i} Hotel room?"
@@ -123,18 +127,20 @@ label start:
     nth "Some hero rescues me from the consequences of my own actions, I probably got sick all over them, and I can’t even remember who it was."
 
     # Change background back to the image of the bar
-    scene bg_bar
+    scene bg_bar with fade
     nrt "You cast your mind back to the night before. You were out with two people, people you hadn’t seen in years…"
     # Expression change to nat_su
     nth su"Since uni!"
     nrt "Yes, that sounds right. Two friends from university. One of them must have been Ciara, yes?"
 
     # Background changes to have Ciara’s image come into focus. Either as a sprite, or as a drawing on the CG.
+    show c_n_s at char_right with dissolve
 
     nrt "Yes, of course. She reached out to you a few days ago, set up this meetup, because you never would have organised it yourself. After all these years, she still knew you well enough to not fall into that trap."
     nrt "And you actually attended! Was that because you were such close friends? Clearly not close enough to keep regular contact over the past three years, but that’s hardly her fault. But maybe it wasn’t that."
 
     # Background image changes to show Lillian there as well.
+    show l_bar_n_s at char_left with dissolve
 
     nrt "Oh, right, it’s because the other person she invited was—"
 
@@ -323,11 +329,11 @@ label start:
     lil "Let you in on a little secret? I’m actually a little happy this happened. If no one else is going to look after you, then I will."
     # Expression change to l_n_s_b_sp
     hide l_h_sp_bl
-    show l_n_s_bl_sp
+    show l_h_sp_bl
     lil "And if it means I get to spend a little more time catching up? Then all the better."
     # Expression change to nat_shy_b
     # Expression change to l_h_b
-    hide l_n_s_bl_sp
+    hide l_h_sp_bl
     show l_h_bl
     nth sh_bl "I’M DEAD"
     # Expression change to nat_shy_b_sp
@@ -439,7 +445,7 @@ label start:
 
     # Make this one enormous paragraph. Have the text scroll, possibly speeding up as it goes? Or just being like 50% faster from the start. Having it kind of blur and not necessarily all be readable is basically the joke. If it auto-skips at the last word to have Lillian interrupt that’d be funny too.
     # Expression change to nat_sy
-    nth "What the hell do actual Chinese people have as hangover cures? Not a stir fry, even if it’s the only Chinese thing I ever learned to cook, if I have a huge load of rice and carb right now I’m going to throw up {i}again.{/i} Hot and sour soup? No way, my spice tolerance is {i}painfully{/i} white. Even the takeaway recipe is too much for me, authentic stuff will kill mestone dead. Chicken noodle soup? No, too English menu on the Chinese takeaway. Wonton soup? That’s authentic, right? And you can make it with pork and eggs, so that’s basically like having bacon and eggs, righ—"
+    nth "{cps=100}What the hell do actual Chinese people have as hangover cures? Not a stir fry, even if it’s the only Chinese thing I ever learned to cook, if I have a huge load of rice and carb right now I’m going to throw up {i}again.{/i} Hot and sour soup? No way, my spice tolerance is {i}painfully{/i} white. Even the takeaway recipe is too much for me, authentic stuff will kill mestone dead. Chicken noodle soup? No, too English menu on the Chinese takeaway. Wonton soup? That’s authentic, right? And you can make it with pork and eggs, so that’s basically like having bacon and eggs, righ—"
     # Expression change to l_fl_bl_sp
     hide l_h_bl
     show l_fl_bl_sp
@@ -499,3 +505,5 @@ label start:
     # Sizzling SFX
 
     nrt "Setting aside the pleasant revelation that you had not, in fact, thrown up all over yourself and Lillian, your mind turns again to the night before."
+
+    jump flashback1
