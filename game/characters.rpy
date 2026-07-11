@@ -46,17 +46,17 @@ image side n dj_sm_sp:
     "nat_dejected_smile_speaking", zoom 0.5
 image side n dj_sm: 
     "nat_dejected_smile", zoom 0.5
-image side n h_b_sp:
+image side n h_bl_sp:
     "nat_happy_blush_speaking", zoom 0.5
-image side n h_b:
+image side n h_bl:
     "nat_happy_blush_speaking", zoom 0.5
 image side n h_sp: 
     "nat_happy_speaking", zoom 0.5
 image side n h:
-    "nat_happy", zoom 0.5
-image side n ne_b_sp:
+    "nat_happy.png", zoom 0.5
+image side n ne_bl_sp:
     "nat_neutral_blush_speaking", zoom 0.5
-image side n ne_b:
+image side n ne_bl:
     "nat_neutral_blush", zoom 0.5
 image side n ne_sd_bl_sp:
     "nat_neutral_sideeye_blush_speaking", zoom 0.5
@@ -72,6 +72,8 @@ image side n ne_s_sd_sp:
     "nat_neutral_smile_sideeye_speaking", zoom 0.5
 image side n ne_s:
     "nat_neutral_smile", zoom 0.5
+image side n ne_s_sp:
+    "nat_neutral_smile_speaking", zoom 0.5
 image side n ne_sp:
     "nat_neutral_speaking", zoom 0.5
 image side n ne:
@@ -175,7 +177,7 @@ image side n bar_su:
 image l_n: 
     "lil_neutral"
     zoom 0.65
-image l_ag_s:
+image l_ag_sp:
     "lil_angry_speaking"
     zoom 0.65
 image l_ag:
@@ -193,10 +195,10 @@ image l_ap_sp:
 image l_ap: 
     "lil_apologetic"
     zoom 0.65
-image l_h_b:
+image l_h_bl:
     "lil_happy_blush"
     zoom 0.65
-image l_h_sp_b:
+image l_h_sp_bl:
     "lil_happy_speaking_blush"
     zoom 0.65
 image l_h_sp: 
@@ -205,7 +207,7 @@ image l_h_sp:
 image l_h:
     "lil_happy"
     zoom 0.65
-image l_n_s_b:
+image l_n_s_bl:
     "lil_happy_speaking_blush"
     zoom 0.65
 image l_n_s_sp:
