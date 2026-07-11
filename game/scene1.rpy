@@ -499,3 +499,5 @@ label start:
     # Sizzling SFX
 
     nrt "Setting aside the pleasant revelation that you had not, in fact, thrown up all over yourself and Lillian, your mind turns again to the night before."
+
+    jump flashback1
