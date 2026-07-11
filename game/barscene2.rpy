@@ -1,4 +1,4 @@
-label start:
+label flashback2:
     scene bg_bar
     show c_h_sp at char_right
     show l_bar_n_s at char_left
