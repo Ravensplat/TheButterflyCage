@@ -1,4 +1,4 @@
-label start: 
+label temp: 
 
     scene black_bg at double
     
