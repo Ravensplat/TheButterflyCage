@@ -24,7 +24,7 @@ label scene2:
     # lil_sympathetic_speaking
     hide l_sy
     show l_sy_sp
-    lil How are you feeling, can you sit up?
+    lil "How are you feeling, can you sit up?"
     # lil_sympathetic
     hide l_sy_sp
     show l_sy
