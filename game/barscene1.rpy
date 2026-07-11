@@ -179,12 +179,14 @@ label flashback1:
     nrt "You glanced up at that waiter with such immense gratitude that he just might have been the second coming of the lord himself."
     nrt "However, that assumption was immediately disproven when an {b}actual{/b} goddess given flesh materialised behind him."
 
-    hide c_ch_ec
     hide c_n
     hide c_ca_sp
-    show c_ch_ec at char_right
-    show l_bar_h_sp at char_left
+    show c_ch_ec at move_to_right
+
+    show l_bar_h_sp at char_left with moveinleft
     lil "Good evening, both of you!"
+
+    jump scene2
     # hide l_bar_h_sp
     # hide c_ch_ec
 

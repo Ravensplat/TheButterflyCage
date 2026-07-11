@@ -2,14 +2,14 @@ label scene2:
     #SCENE 2
 
     # Bedroom bg.
-    show bed_day
+    show bed_day with fade
     # lil_neutral_smile
-    show lil_n_s
+    show l_n_s with dissolve
     nrt "The door swings gently open, and Lillian enters, a steaming plate of bacon, sausages, and eggs in her hands."
     nrt "The smell is absolutely divine. The food, not Lillian. Well, maybe Lillian too."
     nrt "Definitely not you, anyway. Did you even fix up your hair while she was out?"
     # lil_happy_speaking
-    hide lil_n_s
+    hide l_n_s
     show l_h_sp
     lil "Lunch is served, hope you’re hungry!"
     # lil_happy
@@ -23,10 +23,10 @@ label scene2:
     nrt "Lillian’s expression turns softer, clearly concerned for you, for some reason."
     # lil_sympathetic_speaking
     hide l_sy
-    show l_sy_sp
+    show l_ap_sp
     lil "How are you feeling, can you sit up?"
     # lil_sympathetic
-    hide l_sy_sp
+    hide l_ap_sp
     show l_sy
     nrt "You try to nod. {b}That{/b} was a mistake. Instead, you attempt to force your head higher on the bedframe."
     nrt "It feels like you’re pushing a giant lead ball with limbs made of jelly. You look, presumably, something like a caterpillar squirming in treacle."
@@ -39,10 +39,10 @@ label scene2:
     nrt "She slots the pillow behind your head, letting you finish wiggling into place."
     # lil_sympathetic_speaking
     hide l_sy
-    show l_sy_sp
+    show l_ap_sp
     lil "Better?"
     # lil_sympathetic
-    hide l_sy_sp
+    hide l_ap_sp
     show l_sy
     # nat_neutral_smile_speaking
     nat n_s_sp "Yeah, thanks."
@@ -53,10 +53,10 @@ label scene2:
     nat su_bl_sp "I mean the food! The, um, bacon. And eggs. And sausages too? They all smell, uh great."
     # lil_neutral_smile_speaking_blush
     hide l_sy
-    show l_n_s_sp_bl
+    show l_h_sp_bl
     lil "Thank you, Nat."
     # lil_neutral_smile
-    hide l_n_s_sp_bl
+    hide l_h_sp_bl
     show l_n_s
     nrt "Lillian smiles kindly at you, and her response sounds genuine, which is crazy because right now you have all the charisma of a literal slug."
     nrt "She’s still sitting on the bed, close enough that the mattress is tilting you towards her. Definitely the only reason you can’t tear your eyes away from her face."
@@ -73,7 +73,8 @@ label scene2:
     # lil_happy
     hide l_h_sp
     show l_h
-    nrt "French phrase between two Chinese-Brits over a meal combination that was technically popularised in America by Sigmund Freud. You definitely watch too many pointless Youtube documentaries to know that tidbit, but it’s quite funny nonetheless."
+    nrt "French phrase between two Chinese-Brits over a meal combination that was technically popularised in America by Sigmund Freud."
+    nrt "You definitely watch too many pointless Youtube documentaries to know that tidbit, but it’s quite funny nonetheless."
     # nat_happy_speaking
     nat h_sp "Itadakimasu!"
     nrt "Alright fair enough, that was pretty clever. Don’t let it go to your head."
@@ -89,7 +90,9 @@ label scene2:
     nrt "Not that you were making it to many by the time you met Lillian in the first place. The first term of your Masters, sure, but by the end you were basically only attending the classes you were being paid to help with."
     nrt "Some scientist you turned out to be, eh?"
     nrt "Never mind that you probably would have died of shame at being looked after by one of your own undergrad students that you were ostensibly meant to be supervising."
-    nrt "Honestly, actually stopping to think about it now, it still feels weird. Oh sure you can justify to yourself that she’s only a couple of years younger, that it was years ago, and that half the girls you knew in undergrad were dating PhD students anyway, you still feel a little bit ashamed at having Lillian take such good care of you."
+    nrt "Honestly, actually stopping to think about it now, it still feels weird."
+    nrt "Oh sure you can justify to yourself that she’s only a couple of years younger, that it was years ago, and that half the girls you knew in undergrad were dating PhD students anyway."
+    nrt "You still feel a little bit ashamed at having Lillian take such good care of you."
     nrt "Dating? When did {b}dating{/b} become a part of this conversation? You think Lillian’s treating you with {b}girlfriend-like{/b} affection?"
     nrt "What part of this reads to you as {b}anything{/b} more than sympathy for her idiot fuckup of a former supervisor who couldn’t even finish her own Masters, let alone help Lillian with her second year of undergrad like you were supposed to?"
     nrt "The absolute fucking delusion on you, Natalie."
@@ -103,7 +106,7 @@ label scene2:
     nrt "In your demented mental ramblings about ever being able to land a girlfriend on even a single percentage of Lillian’s level, you barely noticed that you’ve chewed your way through almost the entire plate of food."
     nrt "Clearly you needed it, although you could have paid a little more attention to your friend’s wonderful cooking."
     # nat_happy_speaking
-    nat h_sp"Am-amashing."
+    nat h_sp "Am-amashing."
     nrt "Finish swallowing your food, idiot."
     # nat_apologetic_speaking
     nat ap_sp "Sorry. That was so good Lillian, I know you said you were a good cook but like, holy shit that was exactly what I needed."
@@ -112,17 +115,17 @@ label scene2:
     show l_n_s_sp
     lil "Thank you, Nat! It’s been a while since I’ve got to share my cooking with anyone, I’m really glad you enjoyed it."
     # nat_neutral_smile_speaking
-    nat ne_s_sp S"eriously, best bacon and eggs I’ve ever had!"
+    nat ne_s_sp "Seriously, best bacon and eggs I’ve ever had!"
     # lil_happy_blush
     hide l_n_s_sp
     show l_h_bl
     nrt "Lillian flushes a little, smiling in delight. Has nobody really ever complimented her cooking like this before?"
     # lil_happy_blush_speaking
-    hide l_h_bl_sp
-    show l_h_bl_sp
+    hide l_h_bl
+    show l_h_sp_bl
     lil "You’re so sweet. Sweet enough that I might just cook you dinner as well, especially if you promise to be just as nice about that!"
     # lil_happy_blush
-    hide l_h_bl_sp
+    hide l_h_sp_bl
     show l_h_bl
     # nat_neutral_smile_speaking
     nat ne_s_sp "Really? That would be great, thanks so much!"
@@ -145,10 +148,15 @@ label scene2:
     # Sky Knuckle Kiss CG
     nrt "She does it so effortlessly, so confidently, that it takes a moment for you to register the enormity of what she just did. You can’t even babble now, simply staring at her in abject wonder, certain that your face is completely red."
     # no Lillian sprites here, just let the CG stay there
+    hide l_fl
+    show l_fl_sp
     lil "Then keep being good and rest up, OK? You don’t need to worry about anything."
     lil "I’ll take care of everything for you, Natalie."
+    hide l_fl_sp
+    show l_fl
     nrt "She all but whispers the words against your hand, it was almost a struggle to hear them over the frantic pounding of your heart."
     nrt "Lillian stands from the bed, holding your hand for just a moment longer, smiling down at you with such radiant care that you almost want to dissolve into nothingness, become a pure being of warmth under her care."
+    hide l_fl with dissolve
     nrt "She turns towards the door, her soft footsteps the only sound in the room other than your beating heart."
     # nat_surprised_blush_speaking
     nat su_bl_sp "Thank you."

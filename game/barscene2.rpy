@@ -1,7 +1,7 @@
 label flashback2:
-    scene bg_bar
-    show c_h_sp at char_right
-    show l_bar_n_s at char_left
+    scene bg_bar with fade
+    show c_h_sp at char_right with dissolve
+    show l_bar_n_s at char_left with dissolve
     cra "—an’ then he says, {i}\"well I sure as fuck didn’t wish for a twelve-inch pianist!\"{/i}"
     hide c_h_sp
     show c_h at char_right

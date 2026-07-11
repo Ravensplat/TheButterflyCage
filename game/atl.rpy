@@ -27,6 +27,9 @@ transform char_right:
     xalign 0.85
     yalign 1.0
 
+transform move_to_right:
+    easeout 0.5 xalign 0.85
+
 image tb_n:
     "textbox_normal"
     zoom 0.35
