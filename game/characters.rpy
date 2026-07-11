@@ -22,9 +22,9 @@ image nat_namebox:
 image lil_namebox:
     "images/Lillian_nametag.png", zoom 0.35
 image cra_namebox:
-    "image/Ciara_nametag.png", zoom 0.35
+    "images/Ciara_nametag.png", zoom 0.35
 image wai_namebox:
-    "image/waiter_nametag.png" zoom 0.35
+    "images/waiter_namebox.png", zoom 0.35
 
 
 #nat_images
@@ -172,6 +172,13 @@ image side n bar_su_sp:
 image side n bar_su:
     "nat_bar_surprised.png", zoom 0.5
 
+image side n bar_sh:
+    "nat_bar_shy_blush.png", zoom 0.5
+image side n bar_sh_sp:
+    "nat_bar_shy_blush_speaking.png", zoom 0.5
+
+
+
 #lillian_images
 #lil image rezises
 image l_n: 
@@ -311,8 +318,17 @@ image l_bar_n:
     "lil_bar_neutral"
     zoom 0.65
 
+image l_bar_n_sp:
+    "lil_bar_neutral_speaking"
+    zoom 0.65
+
+
 image l_bar_sa:
     "lil_bar_sad"
+    zoom 0.65
+
+image l_bar_s_sp:
+    "lil_bar_sad_speaking"
     zoom 0.65
 
 image l_bar_su_sp:
@@ -326,96 +342,111 @@ image l_bar_sy:
     "lil_bar_sympathetic"
     zoom 0.65
 
-#ciara
+image l_bar_fl:
+    "lil_bar_flirty"
+    zoom 0.65
 
+image l_bar_fl_sp:
+    "lil_bar_flirty_speaking"
+    zoom 0.65
+
+
+#ciara
+image c_ch_w:
+    "ciara_chaotic_wink.png"
+    zoom 0.62
+
+image c_n_w: 
+    "ciara_neutral_wink.png"
+    zoom 0.62
 image c_ag_ec_l_sp:
     "ciara_angry_eyesclosed_loud_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_ag_ec_sp:
     "ciara_angry_eyesclosed_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_ag_ec:
     "ciara_angry_eyesclosed"
-    zoom 0.65
+    zoom 0.62
 
 image c_ag_sp:
     "ciara_angry_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_ag:
     "ciara_angry"
-    zoom 0.65
+    zoom 0.62
 
 image c_ap_sp:
     "ciara_apologetic_speaking"
-    zoom 0.65
+    zoom 0.62
 
 image c_ap_w_sp:
     "ciara_apologetic_wink_speaking"
-    zoom 0.65
+    zoom 0.62
 
 image c_ca_sp:
     "ciara_caring_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_ca_w_sp:
     "ciara_caring_wink_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_ca:
     "ciara_caring"
-    zoom 0.65
+    zoom 0.62
 
 image c_ch_ec_sp:
     "ciara_chaotic_eyesclosed_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_ch_ec:
     "ciara_chaotic_eyesclosed"
-    zoom 0.65
+    zoom 0.62
 
 image c_ch_sp:
     "ciara_chaotic_speaking"
-    zoom 0.65
+    zoom 0.62
 
 image c_ch_w_sp:
     "ciara_chaotic_wink_speaking"
-    zoom 0.65
+    zoom 0.62
 
 image c_dj_sp:
     "ciara_dejected_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_dj:
     "ciara_dejected"
-    zoom 0.65
+    zoom 0.62
 
 image c_h_sp:
     "ciara_happy_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_h:
     "ciara_happy"
-    zoom 0.65
+    zoom 0.62
 
 image c_n_s_sp:
     "ciara_neutral_smile_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_n_s:
     "ciara_neutral_smile"
-    zoom 0.65
+    zoom 0.62
 
 image c_n_sp:
     "ciara_neutral_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_n:
     "ciara_neutral"
-    zoom 0.65
+    zoom 0.62
 
 image c_sy_sp:
     "ciara_sympathetic_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_sy:
     "ciara_sympathetic"
-    zoom 0.65
+    zoom 0.62
 
 image c_su_sp:
     "ciara_surprised_speaking"
-    zoom 0.65
+    zoom 0.62
 image c_su:
     "ciara_surprised"
-    zoom 0.65
+    zoom 0.62
