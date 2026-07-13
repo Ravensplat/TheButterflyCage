@@ -268,3 +268,4 @@ label scene3b:
     hide l_ag
     show l_fl_sp
     lil "I’m not letting you slip away from me again, Natalie. I couldn’t bear it."
+    jump flashback3
