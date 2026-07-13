@@ -236,10 +236,10 @@ image l_sa:
     "lil_sad"
     zoom 0.65
 image l_su_sp:
-    "lil_suprised_speaking"
+    "lil_surprised_speaking"
     zoom 0.65
 image l_su:
-    "lil_suprised"
+    "lil_surprised"
     zoom 0.65
 image l_sy:
     "lil_sympathetic"
@@ -450,3 +450,4 @@ image c_su_sp:
 image c_su:
     "ciara_surprised"
     zoom 0.62
+

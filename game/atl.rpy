@@ -48,3 +48,9 @@ image bed_day:
 image bg_bar:
     "bar"
     zoom 0.5
+
+image waterfall:
+    "kidnaper_photo_2"
+
+image lil_intro:
+    "kid_cg_1"
