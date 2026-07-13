@@ -1,6 +1,7 @@
 label scene4:
     #SCENE 4
-    scene bed_night
+    scene bed_night with fade
+    
     # Night-time bedroom bg.
     # All Lillian sprites in this scene should be the bedclothes edit but I don’t know what the shorthand for that is
 
@@ -19,6 +20,7 @@ label scene4:
     nth sa "(And I’ve never been drunk enough to wake up in anyone else’s bed with no memory of how I got there…)"
 
     nrt "No, you haven’t."
+    play music "audio/ambient.mp3" loop fadein 3.0
     # nat_neutral_sideeye
     nth ne_sd "(…)"
     # nat_neutral
@@ -102,6 +104,8 @@ label scene4:
     # Shower SFX stops
     # nat_sympathetic
     nth sy "(Perfect timing. I’m gonna go talk to her now, clear everything up, and then apologise for even thinking such ridiculous shit.)"
+
+    stop music fadeout 1.5
     # nat_sympathetic
     nth sy"(When she’s been so nice to me all day, too!)"
 
@@ -120,18 +124,20 @@ label scene4:
     nrt "With the state you made of yourself, no one at the bar would have batted an eye when she carried you out."
     nrt "Ciara told you the bar was near her place too, right? Must have been her idea. Probably the only reason she even agreed to see you in the first place."
     # nat_angry
-    nth ag"(Shut up!)"
+    nth ag_sd "(Shut up!)"
 
     nrt "You finally reach the door, your pathetic shambling efforts paying dividends at last. You hear nothing on the other side, Lillian having clearly finished her shower."
     nrt "Are you thinking about her fresh out of the shower, even though she literally kidnapped you?"
     # nat_dejected_smile
-    nth dj_s "(No. I’m thinking about how I’m gonna apologise to her once I open this do—)"
-
+    nth ag_sd "(No. I’m thinking about how I’m gonna apologise to her once I open this do—)"
+    
+    play sound "audio/lock.mp3"
     nrt "The door is locked."
+
 
     # Music changes to something dark and spooky whatever Khaz comes up with lol
     # Rattling SFX of the handle being fruitlessly turned while the line stays on screen.
-
+    play sound "audio/lock.mp3"
     nrt "It’s still locked, no matter how many times you try to deny reality by turning the handle again."
     # nat_surprised
     nth su "(I’m sure there’s… a perfectly normal… explanation…?)"
@@ -139,6 +145,7 @@ label scene4:
     nrt "Since when is being drugged and kidnapped and held in a locked room perfectly normal?!"
     # nat_surprised
     nth su "(The windows?)"
+    play music "audio/ambient.mp3" loop
     # nat_neutral_sideeye
     nth ne_sd"(They’re… pretty high off the ground aren’t they?)"
 
@@ -170,12 +177,14 @@ label scene4:
     nat ne_sd_sp"Um. OK…"
 
     nrt "Lillian steps beside you, calmly but firmly hooking an arm under your shoulder as she closes the door behind her with a resounding click of finality."
-    nrt "You say nothing as she slowly ushers you across the short expanse of floor to the bed. Your body still feels sluggish, and the assistance is honestly quite helpful, considering how difficult it was for you to make it to the door in the first place."
-    nrt "The irony should not be lost on you that, despite Lilllian’s assistance, she is the reason you need help in the first place."
+    nrt "You say nothing as she slowly ushers you across the short expanse of floor to the bed. "
+    nrt "Your body still feels sluggish, and the assistance is honestly quite helpful, considering how difficult it was for you to make it to the door in the first place."
+    nrt "The irony should not be lost on you that, despite Lillian’s assistance, she is the reason you need help in the first place."
     # lil_happy_speaking
     hide l_z_n_s_sp
     show l_z_h_sp
     lil "There, that’s better."
+    play music "audio/lilsus.mp3" loop fadeout 1.0 fadein 3.0
     # lil_sad_speaking
     hide l_z_h_sp
     show l_z_sa_sp
@@ -202,6 +211,7 @@ label scene4:
     nrt "Your absurd horny-brain addled musings are interrupted, as are all other functions of your brain for the rest of time, as Lillian, quite unceremoniously, slips into bed alongside you."
     # nat_surprised_blush_speaking
     nat su_bl_sp "Oh!"
+
     # lil_happy_speaking_blush
     hide l_z_n_s
     show l_z_h_bl_sp
@@ -231,9 +241,11 @@ label scene4:
     nrt "And begins to sing."
     # Change to Alexis CG and Khaz music
     # No more character portraits during the CG.
-    scene cuddleCG
+    scene cuddleCG with fade
+    play music "audio/lilsus_spook.mp3" loop fadeout 1.0 fadein 3.0
     nrt "She sings softly, wordlessly. A melody that is at once simple and complex, filling your senses. You don’t know whether to feel soothed or threatened, secured or trapped."
-    nrt "You don’t know anything about music theory, is this melody major or minor? Both? You had no idea Lillian was such a great singer. Does Lillian know music theory? Did she compose this song just for you? Or is she making it up on the spot?"
+    nrt "You don’t know anything about music theory, is this melody major or minor? Both?"
+    nrt "You had no idea Lillian was such a great singer. Does Lillian know music theory? Did she compose this song just for you? Or is she making it up on the spot?"
     nrt "The tenseness begins to leave your body as Lillian sings into your soul, rubbing the same soothing circles into your hair as she did last night at the bar."
 
     nth n"(At the bar…)"
@@ -282,7 +294,8 @@ label scene4:
     lil "You don’t have to answer right away. My love for you is patient, Natalie."
     lil "We have all the time in the world."
 
-    nrt "Lillian pulls you back into her chest. Your body still feels tense, so tense, like you don’t know whether to fight, flee, or kiss her. Your hands clench and unclench uselessly somewhere around her stomach, your shoulders shaking beneath her all-encompassing embrace."
+    nrt "Lillian pulls you back into her chest. Your body still feels tense, so tense, like you don’t know whether to fight, flee, or kiss her. "
+    nrt "Your hands clench and unclench uselessly somewhere around her stomach, your shoulders shaking beneath her all-encompassing embrace."
     nrt "Her singing returns anew, and you drift into the hypnotising melody."
 
     nth "(Her voice is so beautiful… She’s… perfect at everything…)"
@@ -296,7 +309,7 @@ label scene4:
     nrt "Because that’s who you are, isn’t it? Who you’ve always been. A woman who will do anything so long as it means she has to do nothing."
     nrt "You deserve this."
     nrt "Lillian’s melody drifts to a close, and she presses another kiss to your head."
+    scene black_bg at double with fade
 
     lil "I’m never letting you go, Nat."
-
-    nrt "TO BE CONTINUED"
+    nrt "{cps=10}TO BE CONTINUED.{/cps}"
