@@ -144,20 +144,35 @@ label flashback1:
     hide c_ch_w_sp
     show c_ch_ec
     hide c_ch_ec
-
-    show c_n_sp
-    cra "Works out since this is meant to be a catch up and everything."
-    hide c_n_sp
-    show c_n
-
-    nat bar_ne_sp "Makes sense. I guess it’s probably busier on the weekends too."
-    hide c_n_sp
-    show c_n
-    nrt "Truly, the peak of riveting small talk. It’s a wonder you weren’t too busy with all of the hundreds of other people desperate for your enticing company."
-
+    #############
     show c_ch_w_sp
-    cra "So, what ye been up to since uni? Done anythin’ interesting? Done any{i}one{/i} interesting?"
+    cra "Doesn’t hurt that the staff are all stunnin’ as well."
     hide c_ch_w_sp
+    show c_ch_w
+    nrt "You hadn’t been paying close attention while scanning around the room for Ciara herself, but once you had a minute to follow her eyeline, she was not wrong."
+    nrt "Naturally, you skimmed right past the bartender with the man-bun and close-cropped beard that you are all too aware is **exactly **Ciara’s type, and landed on the pretty waitress next to him."
+    # ciara_chaotic_wink_speaking
+    hide c_ch_w
+    show c_ch_w_sp
+    cra "You seeing what I’m seeing?"
+    # ciara_chaotic_wink
+    hide c_ch_w_sp
+    show c_ch_w
+    nrt "That she had incredible legs, and was wearing thigh-high stockings that drew both sets of eyes directly to that fact? Yes. Yes you were very much seeing that."
+    nrt "But you also knew your part in this little skit. You’d play coy, while Ciara acted the horndog, and many a laugh would be shared."
+    # nat_neutral_smile_sideeye
+    nat ne_s_sd "Oh, behave."
+    # ciara_happy
+    hide c_ch_w
+    show c_h
+    nrt "You both laughed along at that, your wandering eyes returning from the pleasant view."
+    nrt "Normally, that was the height of it, just looking and appreciating. Sometimes, depending on how much alcohol had been consumed, Ciara would end up approaching someone."
+    nrt "Whether that was on your behalf or her own really depended on how the night had been going, and was unlikely to have been on the cards last night."
+    hide c_h
+    show c_n_s_sp
+    cra "Anyway, what ye been up to since uni? Done anythin’ interesting? Done anyone interesting?"
+    ####################
+    hide c_n_s_sp
     show c_ch_ec
 
     nrt "She raised an eyebrow, smirking again at some hidden joke."
@@ -176,8 +191,8 @@ label flashback1:
 
     nat bar_ap_sp "Oh, thank y—"
 
-    nrt "You glanced up at that waiter with such immense gratitude that he just might have been the second coming of the lord himself."
-    nrt "However, that assumption was immediately disproven when an {b}actual{/b} goddess given flesh materialised behind him."
+    nrt "You glanced up at the pretty waitress with enough gratitude that you hoped it might almost make up for how badly you and Ciara had been ogling her earlier."
+    nrt "However, that appreciation was immediately discarded as a goddess truly worth appreciating arrived."
 
     hide c_n
     hide c_ca_sp

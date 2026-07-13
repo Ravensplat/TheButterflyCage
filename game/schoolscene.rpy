@@ -1,4 +1,4 @@
-label flashback3: 
+label schoolback3: 
     #FLASHBACK SCHOOL / UNI
     #play movie "images/school_wobble.ogv" loop
     scene movie with fade

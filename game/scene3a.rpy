@@ -470,4 +470,4 @@ label scene3a:
 
     nat ne_sp "I'm adopted."
 
-    jump flashback3
+    jump schoolback3
