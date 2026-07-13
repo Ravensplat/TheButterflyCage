@@ -162,15 +162,13 @@ label scene4:
 
     lil "That’s lovely. It’s getting rather late, though. Unfortunate timing, I know, but let’s get you back to bed, shall we?"
     # nat_neutral_sideeye_speaking
-    hide l_z_ag_sp
-    show l_z_n_sd_sp
     nat ne_sd_sp"Um. OK…"
 
     nrt "Lillian steps beside you, calmly but firmly hooking an arm under your shoulder as she closes the door behind her with a resounding click of finality."
     nrt "You say nothing as she slowly ushers you across the short expanse of floor to the bed. Your body still feels sluggish, and the assistance is honestly quite helpful, considering how difficult it was for you to make it to the door in the first place."
     nrt "The irony should not be lost on you that, despite Lilllian’s assistance, she is the reason you need help in the first place."
     # lil_happy_speaking
-    hide l_z_n_sd_sp
+    hide l_z_ag_sp
     show l_z_h_sp
     lil "There, that’s better."
     # lil_sad_speaking
