@@ -50,24 +50,24 @@ label flashback3:
     hide l_bar_h
     show l_bar_n_s at char_left
     # nat_annoyed
-    nth an "Hey I wasn’t that drunk. Yet."
+    nth an "(Hey I wasn’t that drunk. Yet.)"
 
     nrt "Your second drink had been looking dangerously low, and it’s not like you’ve ever been particularly renowned for handling your drink well."
     # nat_dejected
-    nth dj "White girl spice tolerance, Asian girl alcohol tolerance. Worst of both worlds for real."
+    nth dj "(White girl spice tolerance, Asian girl alcohol tolerance. Worst of both worlds for real.)"
     # nat_neutral
-    nth ne "But nah, neither of those drinks were all that strong. I would’ve been tipsy, sure, but nowhere near as smashed as I was this morning."
+    nth ne "(But nah, neither of those drinks were all that strong. I would’ve been tipsy, sure, but nowhere near as smashed as I was this morning.)"
 
     nrt "True. And with Ciara leaving, you can’t even blame her for the state you ended up in."
     nrt "The hell was your third drink, absinthe? Neat vodka?"
     # nat_neutral_smile
-    nth ne_s "Maybe Lillian and I stayed at the bar for ages?"
+    nth ne_s "(Maybe Lillian and I stayed at the bar for ages?)"
     # nat_shy_blush
-    nth sh_bl "Considering how well things are going today, it’d make sense."
+    nth sh_bl "(Considering how well things are going today, it’d make sense.)"
 
     nrt "Do you really think that being subjected to your drunken bullshit for hours on end would have made Lillian more interested in you?"
     # nat_shy_blush
-    nth sh_bl "I mean… Apparently?"
+    nth sh_bl "(I mean… Apparently?)"
 
     nrt "Hopeless."
     # ciara_neutral_smile_speaking
@@ -86,44 +86,44 @@ label flashback3:
     show l_bar_h_bl at char_left
     nrt "She shot you both outrageous winks on her way out, as you stammered a goodbye and Lillian remained significantly more composed about the whole matter."
     # ciara leaves the scene
-    hide c_ch_w with move_to_right
+    hide c_ch_w with moveoutright
     nrt "Alright, pause for a second here. Stupid as you are, you’re not that dense. And Ciara is not that subtle at the best of times, and even by her standards, this was laying it on thick."
     nrt "Your old uni bestie was trying to wingwoman you. With Lillian. Why the hell was she doing that."
     # nat_dejected_smile
-    nth dj_s "Girl I wish I knew."
+    nth dj_sm "(Girl I wish I knew.)"
     # nat_neutral_smile_blush
-    nth ne_s_bl "I don’t think I ever told her I was into Lillian at uni but I guess it would have been obvious enough, right?"
+    nth ne_sd_bl "(I don’t think I ever told her I was into Lillian at uni but I guess it would have been obvious enough, right?)"
 
     nrt "Definitely."
     # nat_shy_blush
-    nth sh_bl "And judging by today, crazy as it is to even think, Lillian seems to be… Maybe a little bit… Kind of… Into me?"
+    nth sh_bl "(And judging by today, crazy as it is to even think, Lillian seems to be… Maybe a little bit… Kind of… Into me?)"
 
     nrt "You’re right, it is crazy to even think that. Delusional, even. The product of a diseased mind drunk on its own delirium."
     nrt "But also, based on the available evidence, seemingly true."
     nrt "That or this is all an elaborate long con, and when you admit that you fancied her back at uni and fancy her even harder now, the walls will fall down revealing a camera crew and all your school bullies and your entire extended family laughing at you for your audacity."
     # nat_neutral
-    nth ne "OK but like, probably not, right?"
+    nth ne "(OK but like, probably not, right?)"
 
     nrt "The chances are never zero."
     nrt "That or you’re misreading signs, it wouldn’t be the first time."
     # nat_annoyed
-    nth an "Alright we don’t have time for the highlight reel of my embarrassing secondary school crushes on straight girls."
+    nth an "(Alright we don’t have time for the highlight reel of my embarrassing secondary school crushes on straight girls.)"
 
     nrt "You sure?"
     # nat_annoyed
-    nth an "Let’s pretend we went through it in excruciating detail and I was very embarrassed and then get back to the point."
+    nth an "(Let’s pretend we went through it in excruciating detail and I was very embarrassed and then get back to the point.)"
 
     nrt "If you insist."
     # nat_neutral_smile_blush
-    nth ne_s_bl "Besides, Lillian’s actually gay, I’ve known that much for years."
+    nth ne_sd_bl "(Besides, Lillian’s actually gay, I’ve known that much for years.)"
     # nat_shy_blush
-    nth sh_bl "And maybe got a little first-hand evidence of that last night? If I can remember anything."
+    nth sh_bl "(And maybe got a little first-hand evidence of that last night? If I can remember anything.)"
 
     nrt "Your attempts to remember the conversation after Ciara’s departure are a little hazy, yes. Mostly due to the fact that you were now alone with Lillian after Ciara all but yelled that she’d been wingwomaning for you."
     nrt "Time to see just how badly you missed the open goal she set up for you, eh?"
     # lil_bar_neutral_smile_talking
     hide l_bar_h_bl
-    show l_bar_n_s_sp with move_to_right
+    show l_bar_n_s_sp at move_to_centre
     lil "I see she’s as lively a character as ever."
     # lil_bar_neutral_smile
     hide l_bar_n_s_sp
@@ -132,7 +132,7 @@ label flashback3:
     # nat_bar_happy_speaking
     nat bar_h_sp "Haha, yeah."
     # nat_neutral_sideeye_blush
-    nth ne_sd_bl "That laugh didn’t sound too awkward, did it?"
+    nth ne_sd_bl "(That laugh didn’t sound too awkward, did it?)"
 
     nrt "Girl you already know."
     # nat_bar_neutral_smile_speaking
@@ -181,7 +181,7 @@ label flashback3:
     # nat_bar_apologetic_speaking
     nat bar_ap_sp "Like, not every experience she took me to was the greatest night of my life or anything, but I’m still grateful she gave me the chance to find out, right?"
     # nat_bar_neutral_smile_blush_speaking
-    nat bar_ne_s_bl_sp "Or like, I’m really glad she invited me tonight, of course."
+    nat bar_ne_sd_bl_sp "Or like, I’m really glad she invited me tonight, of course."
     # lil_bar_neutral_smile_blush_speaking
     hide l_bar_n
     show l_bar_n_s_bl_sp
@@ -198,8 +198,8 @@ label flashback3:
     hide l_bar_n_s_sp
     show l_bar_n_s
     # nat_neutral_speaking
-    nat ne_sp "Oh. Yeah I guess we haven’t really hung out in a while. We chat on Facebook sometimes, I guess."
-    nat ne_sp "She helped me settle into my flat after I moved away from uni, so I saw her a few times that first year, but not really at all since then."
+    nat bar_ne_sp "Oh. Yeah I guess we haven’t really hung out in a while. We chat on Facebook sometimes, I guess."
+    nat bar_ne_sp "She helped me settle into my flat after I moved away from uni, so I saw her a few times that first year, but not really at all since then."
     # lil_bar_neutral_speaking
     hide l_bar_n_s
     show l_bar_n_sp
@@ -216,11 +216,11 @@ label flashback3:
     hide l_bar_su_sp
     show l_bar_su
     # nat_bar_neutral_sideeye_speaking
-    nat bar_ne_sd_sp "Oh, really?"
+    nat bar_sd_sp "Oh, really?"
     # nat_bar_sad_speaking
-    nat bar_sa_sp "Sorry, pretty rude of me."
+    nat bar_ap_sp "Sorry, pretty rude of me."
     # nat_bar_neutral_sideeye_speaking
-    nat bar_ne_sd_sp "Ciara’s meant to be one of my best friends, right?"
+    nat bar_sd_sp "Ciara’s meant to be one of my best friends, right?"
     # nat_bar_sad_speaking
     nat bar_sa_sp "So close that I’ve barely spoken to her in three years…"
     # lil_bar_sad_speaking
@@ -258,8 +258,8 @@ label flashback3:
     # lil_bar_sympathetic
     hide l_bar_ap_ns_sp
     show l_bar_sy
-    "Against all odds, to your great surprise, Lillian reached out and brushed away the tears that had been forming on your cheek."
-    "You melted into her touch, all but sobbing into her. She pulled you closer, letting you shake in her arms. Maybe people were staring. You didn’t care."
+    nrt "Against all odds, to your great surprise, Lillian reached out and brushed away the tears that had been forming on your cheek."
+    nrt "You melted into her touch, all but sobbing into her. She pulled you closer, letting you shake in her arms. Maybe people were staring. You didn’t care."
     # nat_bar_sad_speaking
     nat bar_sa_sp "And I feel so shitty cause it’s not like it’s her fault she has such a great life."
     # nat_bar_sad_speaking
@@ -360,7 +360,7 @@ label flashback3:
     # lil_bar_neutral_smile_speaking
     hide l_bar_sy
     show l_bar_n_s_sp
-    lil bar_n_s_sp "Shhh, it’s alright."
+    lil "Shhh, it’s alright."
 
     nrt "Lillian pulled you back close again, holding you tightly, whispering into your hair."
     # lil_bar_happy_blush_speaking
@@ -393,9 +393,9 @@ label flashback3:
     # lil_bar_flirting_speaking
     hide l_bar_h_bl_sp
     show l_bar_fl_sp
-    lil bar_fl_sp "I only want what’s best for you, Natalie."
+    lil "I only want what’s best for you, Natalie."
     # lil_bar_flirting
     hide l_bar_fl_sp
     show l_bar_fl
-    "You think you might have been about to blurt out something about how much you wanted to kiss her. Or maybe you actually did try to kiss her. Maybe you just faceplanted back into her shoulder again."
-    "You can’t tell. You might never be able to tell. From that point on, the rest of the night is nothing but a hazy blur.""
+    nrt "You think you might have been about to blurt out something about how much you wanted to kiss her. Or maybe you actually did try to kiss her. Maybe you just faceplanted back into her shoulder again."
+    nrt "You can’t tell. You might never be able to tell. From that point on, the rest of the night is nothing but a hazy blur."

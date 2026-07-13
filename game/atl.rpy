@@ -30,6 +30,10 @@ transform char_right:
 transform move_to_right:
     easeout 0.5 xalign 0.85
 
+transform move_to_centre:
+    easeout 0.5 xalign 0.5
+
+
 image tb_n:
     "textbox_normal"
     zoom 0.35
