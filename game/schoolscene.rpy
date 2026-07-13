@@ -2,6 +2,7 @@ label schoolback:
     #FLASHBACK SCHOOL / UNI
     #play movie "images/school_wobble.ogv" loop
     scene movie with fade
+    play music "audio/casual_G.mp3" loop fadein 1.0    
 
     # Change to School animation CG
 
@@ -103,7 +104,8 @@ label schoolback:
     # nat_angry
     nth ag "(There were still a few creepy guys who didn’t get the hint, but that one feels pretty universal.)"
 
-    nrt "Unfortunately so. On the other side of things, it seemed like practically every girl you met was “bi-ish,” which usually meant, “if Ciara dragged you out to a club night and got a couple of drinks into you and pushed you and some other girl in the same direction, you’d probably end up making out.”"
+    nrt "Unfortunately so. On the other side of things, it seemed like practically every girl you met was “bi-ish,” which usually meant..."
+    nrt "if Ciara dragged you out to a club night and got a couple of drinks into you and pushed you and some other girl in the same direction, you’d probably end up making out."
 
     # nat_neutral_smile
     nth ne_s "(Still way better than secondary school had ever been.)"
@@ -117,9 +119,14 @@ label schoolback:
     nrt "So, that left your fellow Chinese-Brits. The forbidden fruit. The only people you truly hoped you might ever feel at home with, and yet the only people who could immediately identify you for what you really were."
     nrt "You’re not sure when that fact became so terrifying. Sure, there’s the obvious point that if your own people reject you, you’ll truly have nothing left, but it’s not like you ever reach out to them in the first place to be rejected."
     nrt "If you crave that community so much, why is Lillian the only other Chinese-Brit you’ve ever spoken to for more than a few seconds?"
-
+    
+    scene bed_day with fade
+    # nat_sad_speaking
+    # lil_sad
+    show l_sa with dissolve
+    
     # nat_neutral_sideeye
-    nth ne_sf "(Because she’s gorgeous and I’m gay?)"
+    nth ne_sd "(Because she’s gorgeous and I’m gay?)"
 
     nrt "No. Because you had to. Because she was assigned to your group, and if not you’d have just admired her in fear and awe from afar."
     nrt "Even this connection, one of the few things that can make you feel whole, is something you fluked into and nearly ruined on multiple occasions."

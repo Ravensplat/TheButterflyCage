@@ -1,17 +1,19 @@
 label flashback1:
     scene bg_bar with fade
+    play music "audio/Bar.mp3" loop fadeout 1.0 fadein 3.0
+
     nrt "A little more of the night seems to have become clear to you, thankfully. Or perhaps not so thankfully, given how badly you apparently embarrassed yourself."
     nrt "Although embarrassing yourself isn't really anything new for you, is it?"
     nrt "You remember your arrival, that the bar was busy enough that it took you a while of wandering around aimlessly to find the right table, but not quite so bustling that you’d struggle to hear each other."
     nrt "Upside, you got to hear Lillian all night without having to yell {b}\"What was that?\"{/b} every other sentence. Downside, Lillian got to hear {b}you{/b} without any benefit of the doubt as to what stupid shit you actually said."
     nrt "Lillian wasn't actually there when you arrived, you remember that now. You finally found Ciara tucked away in a corner on the least trashed looking sofa in the place, a half-empty pint of Guinness already on the table in front of her."
 
-    show c_ch_sp
+    show c_ch_sp with dissolve
     cra "Hey! You made it!"
     hide c_ch_sp
     show c_ch_ec
 
-    nat bar_ap_sp "Of course! Sorry I'm late."
+    nat bar_ap_sp "Of c ourse! Sorry I'm late."
 
     # Shuffling SFX to indicate Natalie sitting down next to her
 
@@ -161,7 +163,7 @@ label flashback1:
     nrt "That she had incredible legs, and was wearing thigh-high stockings that drew both sets of eyes directly to that fact? Yes. Yes you were very much seeing that."
     nrt "But you also knew your part in this little skit. You’d play coy, while Ciara acted the horndog, and many a laugh would be shared."
     # nat_neutral_smile_sideeye
-    nat ne_s_sd "Oh, behave."
+    nat bar_an_sp "Oh, behave."
     # ciara_happy
     hide c_ch_w
     show c_h

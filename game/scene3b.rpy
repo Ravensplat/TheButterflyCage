@@ -2,7 +2,6 @@ label scene3b:
     #SCENE 3B
 
     # back to the bedroom bg
-    scene bed_day
     # nat_sad_speaking
     # lil_sad
     show l_sa
@@ -128,6 +127,7 @@ label scene3b:
     # lil_sad_speaking
     hide l_su
     show l_sa_sp
+    play music "audio/liltender.mp3" loop fadeout 1.0 fadein 3.0
     lil "I’m sorry to have ever made you feel that way, Natalie."
     # lil_neutral_speaking or neutral smile
     hide l_su_sp

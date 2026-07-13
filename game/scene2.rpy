@@ -1,6 +1,6 @@
 label scene2:
     #SCENE 2
-
+    play music "audio/Casual.mp3" loop fadeout 1.0 fadein 3.0
     # Bedroom bg.
     show bed_day with fade
     # lil_neutral_smile
@@ -99,6 +99,7 @@ label scene2:
     # lil_neutral_speaking
     hide l_h
     show l_n_sp
+    play music "audio/LOOPLilCasual.mp3" loop fadeout 1.0 fadein 3.0
     lil "So how was it?"
     # lil_neutral
     hide l_n_sp

@@ -1,5 +1,6 @@
 label flashback2:
     scene bg_bar with fade
+    play music "audio/Bar.mp3" loop fadeout 1.0 fadein 3.0
     show c_h_sp at char_right with dissolve
     show l_bar_n_s at char_left with dissolve
     cra "—an’ then he says, {i}\"well I sure as fuck didn’t wish for a twelve-inch pianist!\"{/i}"

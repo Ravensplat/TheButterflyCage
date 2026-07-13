@@ -55,7 +55,7 @@ label start:
     # Room background fully comes into focus, removing the blur.
     scene bedroom_day at half with dissolve
 
-    play music "audio/casual.mp3" loop
+    play music "audio/casual.mp3" loop fadein 1.0
     #Expression change to nat_n_s
     nth ne_s "(Holy shit this place is {i}fancy.{/i} Hotel room?)"
     nrt "What kind of hotel room has taxidermy butterflies on the wall, you idiot."
@@ -149,15 +149,51 @@ label start:
 
     # Expression change to nat_su_sp
     nat "Holy shit I was out with Lil—"
-    #show lil_intro
+
+    scene lil_intro with fade:
+        subpixel True
+        xalign 0.0
+        yalign 1.0
+
+    show lil_intro:
+        subpixel True
+        xalign 0.0
+        yalign 1.0
+    
+    play music "audio/LOOPLilCasual.mp3" loop fadeout 1.0 fadein 3.0
+
+    nrt "Right on cue, your apparent saviour enters the room."
+    nrt "Your last actual lucid memories of Lillian are nearly four years ago, when you were busy fucking up your Masters year and she was the fresh-faced second year who made your supervision TA work bearable."
+    nrt "In the intervening time, you’ve continued on the downward spiral of utter worthlessness..."
+    nrt "while Lillian has apparently graduated from pretty undergrad who you nurtured a not-so-professional crush on, to the most beautiful woman to ever exist."
+
+    show lil_intro:
+        subpixel True
+        linear 3.0 xalign 1.0 yalign 1.0
+
+    nrt "She’s so hot that it makes you embarrassed to breathe the same air as her. As a life-long appreciator of gorgeous women, you’ve never seen anyone even close to this beautiful."
+    nrt "Her hair falls in luxurious waves, she has curves generous, she’s got gorgeous legs that you’re quick to realise make her notably taller than you."
+    nth ne_sd_bl "(And shes's fucking stac-)"
+    show lil_intro:
+        subpixel True
+        linear 3.0 xalign 1.0 yalign 0.0
+
+    nrt "Ahem. Lillian’s dressed casually, but still looks smart. "
+    nrt "Well-composed in a way you could never recreate with hours of preparation and a professional stylist. She looks, in every way, like the perfect woman.."
+
+    show lil_intro:
+        subpixel True
+        linear 1.5 zoom 0.5
+
+    nrt "And apparently, a woman kind enough to rescue you from the consequences of your own actions."
 
     # Insert door opening SFX
     # Change music to Lillian’s Theme
     # Lillian appears, insert l_fl_bl_sp
-    play music "audio/LOOPLilCasual.mp3" loop fadeout 1.0 fadein 1.0
 
-    scene bedroom_day at half
-    show l_fl_bl_sp 
+    scene bedroom_day at half with fade
+
+    show l_fl_bl_sp with dissolve
     lil "Nat! You’re awake!"
     # Expression change to nat_su_sp
     # Expression change to l_n_s
@@ -461,10 +497,10 @@ label start:
     hide l_fl_bl_sp
     show l_n_s
     # Expression change to nat_n_sp
-    nat n_sp"Oh."
+    nat su_sp "Oh."
     nrt "Well that was a lot of overthinking for absolutely nothing, wasn’t it?"
     # Expression change to nat_ap_s
-    nat ap_s"Sounds amazing, thanks!"
+    nat ap_sp  "Sounds amazing, thanks!"
 
     # Lillian’s sprite moves away again
     # Expression change to l_fl_bl_sp

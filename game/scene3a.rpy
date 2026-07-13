@@ -1,5 +1,6 @@
 label scene3a:
     scene bed_day with fade
+    play music "audio/casual.mp3" loop fadeout 1.0 fadein 3.0
 
     nrt "After you finished lunch, you’ve been dozing off and on for what might have been hours. Or maybe not. "
     
@@ -102,6 +103,8 @@ label scene3a:
     nrt "And you think {b}this{/b} is what gives you some special connection to Lillian?"
 
     nat sa_sp "I never said that!"
+    play music "audio/casual_MB.mp3" loop fadeout 1.0 fadein 3.0
+
 
     nrt "It was the point you were getting to. It’s not like you have anything else to offer."
 
@@ -116,6 +119,7 @@ label scene3a:
     nrt "Maybe once upon a time you could’ve offered enough for Lillian to at least catch her gaze on you for a moment or two before deciding better of it. Now you’re not even worth that."
 
     show l_sa_sp with dissolve
+    play music "audio/liltender.mp3" loop fadeout 1.0 fadein 3.0
     lil "Nat? Is everything alright?"
     hide l_sa_sp
     show l_sa 
@@ -290,6 +294,7 @@ label scene3a:
 
     hide l_h_sp
     show l_n_s
+    play music "audio/LOOPLilCasual.mp3" loop fadeout 1.0 fadein 3.0
 
     nrt "You cast your gaze across the room, looking for a conversation starter. The taxidermy butterflies seem a pretty obvious place to start."
 
@@ -452,6 +457,7 @@ label scene3a:
     nrt "Natalie Jackson, you goddamn idiot."
 
     # Music cuts out
+    stop music fadeout 1.0
 
     nat ne_sd_sp "Yeah, um, you've probably figured it out but I've... never actually been to China."
 
