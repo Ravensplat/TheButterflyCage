@@ -63,7 +63,7 @@ label scene3b:
     lil "Oh dear, I can only imagine how awkward that must have been."
     # lil_surprised
     hide l_n_s_sp
-    show su 
+    show l_su 
     nrt "Lillian’s eyes widen, as if suddenly remembering something."
     # lil_surprised_speaking
     hide l_su
@@ -224,7 +224,7 @@ label scene3b:
     # nat_sad_speaking
     nat sa_sp "Yeah I definitely understand that."
     # nat_sad_eyesclosed_speaking
-    nat sa_ex_sp "And you don’t need to apologise, I should’ve at least said something."
+    nat sa_ec_sp "And you don’t need to apologise, I should’ve at least said something."
     # nat_sad_speaking
     nat sa_sp "I guess I just would’ve felt like I was overstepping."
 
@@ -250,7 +250,7 @@ label scene3b:
     # lil_angry
     hide l_ag_sp
     show l_ag
-    nrt "There’s a shockin1g determination to her tone. She hasn’t raised her voice at all, yet she sounds completely implacable."
+    nrt "There’s a shocking determination to her tone. She hasn’t raised her voice at all, yet she sounds completely implacable."
     nrt "Her eyes shine brightly, gazing into your own with an intensity that makes you want to sink to your knees. Maybe you will, if she asked."
     # lil_angry_speaking (or maybe swap to the flirting one here?)
     hide l_ag
