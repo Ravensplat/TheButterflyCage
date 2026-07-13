@@ -17,10 +17,10 @@ label scene3b:
     nat sa_sp "I’m sorry."
     # lil_neutral_smile_speaking
     hide l_sa
-    show l_ne_s_sp
+    show l_n_s_sp
     lil "It’s OK."
     # lil_sympathetic
-    hide l_ne_s_sp
+    hide l_n_s_sp
     show l_sy
     # nat_surprised_speaking
     nat su_sp "Huh?"
