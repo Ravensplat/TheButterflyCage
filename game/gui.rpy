@@ -25,7 +25,7 @@ define config.check_conflicting_properties = True
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#cc6600'
+define gui.accent_color = "#fff4e9"
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = "#575757"
@@ -87,7 +87,12 @@ define gui.title_text_size = 75
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
+image main_menu_bg = Transform(
+    "gui/main_menu.png",
+    zoom=0.5
+)
+
+define gui.main_menu_background = "main_menu_bg"
 define gui.game_menu_background = "gui/game_menu.png"
 
 
