@@ -280,7 +280,7 @@ nrt "{b}WHAT THE FUCK WERE YOU THINKING!?{/b}"
 
 nth su_bl_sp "{i}(I DON’T KNOW!!!){/i}"
 
-nth sy_bl "(I was drunk, I guess?)"
+nth su_bl "(I was drunk, I guess?)"
 
 nrt "You’d had {b}one{/b} drink. {b}One!{/b}"
 

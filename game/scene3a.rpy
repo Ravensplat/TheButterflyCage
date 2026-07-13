@@ -25,7 +25,7 @@ label scene3a:
 
     nth ne "(Like, if Lillian’s trying to seduce me, then yeah, job done. Honestly she’d already succeeded years ago by just existing.)"
 
-    nth ne_b "(All the flirting at the bar and nursing me back to health and hitting me with the {i}good girl,{/i} it’s just…)"
+    nth ne_bl "(All the flirting at the bar and nursing me back to health and hitting me with the {i}good girl,{/i} it’s just…)"
 
     nrt "Are you {b}complaining?{/b}"
 
@@ -469,3 +469,5 @@ label scene3a:
     nat ne_sd_sp "But... yeah."
 
     nat ne_sp "I'm adopted."
+
+    jump flashback3

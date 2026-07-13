@@ -20,10 +20,10 @@ label start:
         blur 25
     scene black_bg at double with out_eye
     
-    nth ag_sd_sp "{i}That{/i} was a mistake."
-    nth ne "Ow…"
+    nth ag_sd_sp "({i}That{/i} was a mistake.)"
+    nth ne "(Ow…)"
     # Expression change to nat_ap
-    nth ap "Just how much did I drink last night?"
+    nth ap "(Just how much did I drink last night?)"
 
     # Insert bar background shot. If we can make it look a bit hazier, possibly like a paint smudging effect, that would be great. Might ask Flor about that.
     scene bg_bar:
@@ -34,13 +34,13 @@ label start:
     nrt "Although given how badly you isolate yourself, that describes almost everyone except your work colleagues. So it wasn’t a work party, not that you ever go to those anyway."
 
     # Expression change to nat_ap
-    nth ap "I think… I remember…"
+    nth ap "(I think… I remember…)"
     nrt  "Girl you don’t remember shit."
 
     # Return to black screen
     scene black_bg at double
     # Expression change to nat_sa_eyes_closed
-    nth sa_ec "Can’t even remember how I got here…"
+    nth sa_ec "(Can’t even remember how I got here…)"
     # Expression change to nat_su_sp
     nat su_sp "WAIT SHIT."
 
@@ -48,27 +48,27 @@ label start:
     scene bedroom_day at half with in_eye:
         blur 16
     # Expression change to nat_su
-    nth su "Where the hell {i}is{/i} here!?"
-    nth su "This isn’t my room!"
+    nth su "(Where the hell {i}is{/i} here!?)"
+    nth su "(This isn’t my room!)"
 
     # Room background fully comes into focus, removing the blur.
     scene bedroom_day at half with dissolve
 
     play music "audio/casual.mp3" loop
     #Expression change to nat_n_s
-    nth ne_s "Holy shit this place is {i}fancy.{/i} Hotel room?"
+    nth ne_s "(Holy shit this place is {i}fancy.{/i} Hotel room?)"
     nrt "What kind of hotel room has taxidermy butterflies on the wall, you idiot."
     #Expression change to nat_n
-    nth ne "Right. Where {i}am{/i} I then?"
+    nth ne "(Right. Where {i}am{/i} I then?)"
     #Expression change to nat_su
-    nth su "Wait, is that…"
+    nth su "(Wait, is that…)"
 
     # Image change to CG of banana and bottle of water on the side table
 
     nrt "Despite the immense disorientation and agony it causes, you’re able to turn your head to glance towards the bedside table."
     nrt "Upon the table stands salvation: A bottle of water, and a banana."
     # Expression change to nat_h
-    nth h "Drunk Natalie I owe you my {i}life.{/i}"
+    nth h "(Drunk Natalie I owe you my {i}life.{/i})"
     nrt "As you reach for your lifelines, something else becomes immediately apparent to you. Your pyjamas are a little too large, the sleeves hanging down practically to your fingers."
 
     # Image change to CG of Natalie reaching for banana and water.
@@ -80,59 +80,59 @@ label start:
     nrt "You pat down your body with one limp, heavy arm struggling to even lift the blankets. Yep. Definitely not yours."
     nrt "They're a little too big, made of some comfortable material that {b}feels{/b} expensive, and have actually been washed some time in the past fortnight."
     # Expression change to nat_n_s
-    nth ne_s"Huh, these are really nice too."
+    nth ne_s"(Huh, these are really nice too.)"
     # Expression change to nat_h_bl
-    nth h_bl "Heh, looks like I finally landed that sugar mama!"
-    nth "Damn, drunk Natalie, I wasn’t familiar with your game."
+    nth h_bl "(Heh, looks like I finally landed that sugar mama!)"
+    nth "(Damn, drunk Natalie, I wasn’t familiar with your game.)"
     nrt "The various aches and pains in your body are, by this point, almost queueing up to be processed. How polite."
     nrt "Your latest bout of self-congratulatory hubris has made those pains demand your attention more urgently, however, and through the haze, the {i}absence{/i} of a certain set of aches becomes apparent."
     # Expression change to nat_n
-    nth ne "Doesn’t {i}feel{/i} like I’ve had sex though…"
+    nth ne "(Doesn’t {i}feel{/i} like I’ve had sex though…)"
     nrt "Do you even remember what that feels like?"
     # Expression change to nat_sa
-    nth sa "Well, yeah it {i}has{/i} been a while since uni… But not {i}that{/i} long, right?"
+    nth sa "(Well, yeah it {i}has{/i} been a while since uni… But not {i}that{/i} long, right?)"
     nrt "You’re probably right. Given that track record, what were the chances that anyone wanted to have sex with you anyway."
     # Expression change to nat_shy_b
-    nth sh_bl "Maybe she was really gentle?"
+    nth sh_bl "(Maybe she was really gentle?)"
     nrt "Well, it’s more likely than you having topped."
     # Expression change to nat_sa
-    nth sa "…"
+    nth sa "(…)"
     # Expression change to nat_sy
-    nth sy "Maybe I really did this time?"
+    nth sy "(Maybe I really did this time?)"
     nrt "Get your head into gear, Natalie."
     nrt "You’re in a stranger’s bed, in a stranger’s house, wearing clothes you didn’t leave home in."
     nrt "Maybe worry about figuring out how the hell that happened, rather than worrying about your nonexistent sex life?"
     # Expression change to nat_n
-    nth ne"I dunno, I guess I must’ve got drunk as shit."
+    nth ne"(I dunno, I guess I must’ve got drunk as shit.)"
     nrt "Starting with the obvious, we’ll make a detective of you yet."
     # Expression change to nat_n_sideeye
-    nth ne_sd"And… I guess, maybe, I was too drunk to get myself home?"
+    nth ne_sd"(And… I guess, maybe, I was too drunk to get myself home?)"
     # Expression change to nat_n_s
-    nth ne_s"So maybe it {i}wasn’t{/i} a stranger!"
+    nth ne_s"(So maybe it {i}wasn’t{/i} a stranger!)"
     # Expression change to nat_h
-    nth h "One of the people I was out with must’ve let me stay at their place, right?"
+    nth h "(One of the people I was out with must’ve let me stay at their place, right?)"
     # Expression change to nat_n_s
-    nth ne_s "Yeah that makes sense. Ciara used to talk about crashing on people’s sofas all the time after house parties or socials or whatever."
+    nth ne_s "(Yeah that makes sense. Ciara used to talk about crashing on people’s sofas all the time after house parties or socials or whatever.)"
     # Expression change to nat_n
-    nth ne "Never really felt like my scene but, here I am I guess."
+    nth ne "(Never really felt like my scene but, here I am I guess.)"
     # Expression change to nat_n_s
-    nth ne_s "Explains the banana and the water too."
+    nth ne_s "(Explains the banana and the water too.)"
     nrt "Honestly, you’re really not sure why you ever attributed the water and banana to your drunken self from the night before. You barely ever remember to look after yourself {b}sober.{/b}"
     # Expression change to nat_n
-    nth ne "Hmm…"
-    nth "Doesn’t explain the pyjamas though…"
+    nth ne "(Hmm…)"
+    nth "(Doesn’t explain the pyjamas though…)"
     # Expression change to nat_n_sideeye_b
-    nth ne_sd_bl "Oh god I probably threw up didn’t I."
-    nth "Shit, I really hope I didn’t get any on them."
+    nth ne_sd_bl "(Oh god I probably threw up didn’t I.)"
+    nth "(Shit, I really hope I didn’t get any on them.)"
     # Expression change to nat_sa
-    nth sa "As if this couldn’t get any more embarrassing."
-    nth "Some hero rescues me from the consequences of my own actions, I probably got sick all over them, and I can’t even remember who it was."
+    nth sa "(As if this couldn’t get any more embarrassing.)"
+    nth "(Some hero rescues me from the consequences of my own actions, I probably got sick all over them, and I can’t even remember who it was.)"
 
     # Change background back to the image of the bar
     scene bg_bar with fade
     nrt "You cast your mind back to the night before. You were out with two people, people you hadn’t seen in years…"
     # Expression change to nat_su
-    nth su"Since uni!"
+    nth su"(Since uni!)"
     nrt "Yes, that sounds right. Two friends from university. One of them must have been Ciara, yes?"
 
     # Background changes to have Ciara’s image come into focus. Either as a sprite, or as a drawing on the CG.
@@ -213,13 +213,13 @@ label start:
     show l_sy
     nrt "Her soft voice makes you feel like she’s a particularly caring nurse, and you’re in the world’s most comfortable hospital."
     # Expression change to nat_n_s
-    nth ne_s"Well she {i}was{/i} studying pharma, makes sense."
+    nth ne_s"(Well she {i}was{/i} studying pharma, makes sense.)"
     nrt "You remembered that? A minute ago you couldn’t even remember her face. Are you having sexy nurse fantasies about Lillian, you sick pervert?"
     # Expression change to nat_shy_b
-    nth sh_bl"No! She’s just… Really good at this, OK?"
+    nth sh_bl"(No! She’s just… Really good at this, OK?)"
     nrt "The lady doth protest too much."
     # Expression change to nat_n
-    nth ne"I should probably answer her question anyway…"
+    nth ne"(I should probably answer her question anyway…)"
     # Expression change to nat_sa_sp
     nat sa_sp"Mostly my head, yeah."
     nat "My mouth tastes all metallic too, and the rest of my body’s pretty sluggish."
@@ -281,7 +281,7 @@ label start:
     show l_sa
     nrt "Or lack of one."
     # Expression change to nat_n_sideeye
-    nth ne_sd "Shit, I probably actually said that."
+    nth ne_sd "(Shit, I probably actually said that.)"
     # Expression change to nat_sa_sp
     nat sa_sp"Oh {i}god{/i} I’m so sorry, I hope I didn’t ruin the mood."
     # Expression change to l_ap_sp
@@ -341,7 +341,7 @@ label start:
     # Expression change to l_h_b
     hide l_h_sp_bl
     show l_h_bl
-    nth sh_bl "I’M DEAD"
+    nth sh_bl "(I’M DEAD)"
     # Expression change to nat_shy_b_sp
     nat sh_bl_sp"O-Oh! That’s— That’s really sweet of you Lillian!"
     # Expression change to nat_h_b_sp
@@ -384,9 +384,9 @@ label start:
     show l_n_s
     nrt "The caring nurse voice again, but with a hint of playfulness to it. You’re {b}definitely{/b} having sexy nurse fantasies, aren’t you?"
     # Expression change to nat_sideeye_b
-    nth sd_bl"Shut it. At least I can enjoy {i}something.{/i}"
+    nth sd_bl"(Shut it. At least I can enjoy {i}something.{/i})"
     nrt "Are you {b}seriously{/b} going to try flirting back?"
-    nth "No I’m just gonna be… jokey like she was?"
+    nth "(No I’m just gonna be… jokey like she was?)"
     nrt "You’re fooling no one."
     # Expression change to nat_n_s_sp
     nat ne_s_sp"Can pharmacists prescribe that kind of treatment?"
@@ -442,16 +442,16 @@ label start:
     nrt "Honestly, bacon and eggs sounds ideal right now. Your dad always said it was the best hangover cure, and a couple days into uni, you found out he was right. Apparently there’s even nutritional science proving it’s a great choice."
     nrt "But there’s just one problem."
     # Expression change to nat_n
-    nth ne "Bacon and eggs is white as {i}hell.{/i}"
+    nth ne "(Bacon and eggs is white as {i}hell.{/i})"
     nrt "Right. There’s no way any self-respecting Chinese woman would ask another self-respecting Chinese woman to make her bacon and eggs for lunch, right?"
     # Expression change to nat_n_sideeye
-    nth ne_sd"May as well paint {i}adoptive white parents{/i} on my face."
+    nth ne_sd"(May as well paint {i}adoptive white parents{/i} on my face.)"
     # Expression change to nat_n_sideeye_sp
     nat ne_sd_sp"Um…"
 
     # Make this one enormous paragraph. Have the text scroll, possibly speeding up as it goes? Or just being like 50% faster from the start. Having it kind of blur and not necessarily all be readable is basically the joke. If it auto-skips at the last word to have Lillian interrupt that’d be funny too.
     # Expression change to nat_sy
-    nth "{cps=100}What the hell do actual Chinese people have as hangover cures? Not a stir fry, even if it’s the only Chinese thing I ever learned to cook, if I have a huge load of rice and carb right now I’m going to throw up {i}again.{/i} Hot and sour soup? No way, my spice tolerance is {i}painfully{/i} white. Even the takeaway recipe is too much for me, authentic stuff will kill mestone dead. Chicken noodle soup? No, too English menu on the Chinese takeaway. Wonton soup? That’s authentic, right? And you can make it with pork and eggs, so that’s basically like having bacon and eggs, righ—"
+    nth "({cps=100}What the hell do actual Chinese people have as hangover cures? Not a stir fry, even if it’s the only Chinese thing I ever learned to cook, if I have a huge load of rice and carb right now I’m going to throw up {i}again.{/i} Hot and sour soup? No way, my spice tolerance is {i}painfully{/i} white. Even the takeaway recipe is too much for me, authentic stuff will kill mestone dead. Chicken noodle soup? No, too English menu on the Chinese takeaway. Wonton soup? That’s authentic, right? And you can make it with pork and eggs, so that’s basically like having bacon and eggs, righ—)"
     # Expression change to l_fl_bl_sp
     hide l_h_bl
     show l_fl_bl_sp
@@ -506,7 +506,7 @@ label start:
     # Door closing SFX, remove Lillian’s sprite.
     hide l_ap_sp
     # Expression change to nat_n
-    nth "…Huh."
+    nth "(…Huh.)"
 
     # Sizzling SFX
 
