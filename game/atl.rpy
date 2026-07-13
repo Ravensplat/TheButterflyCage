@@ -54,3 +54,5 @@ image waterfall:
 
 image lil_intro:
     "kid_cg_1"
+image movie: 
+    Movie(play="images/school_wobble.ogv") 

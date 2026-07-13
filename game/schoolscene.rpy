@@ -1,6 +1,7 @@
 label flashback3: 
     #FLASHBACK SCHOOL / UNI
-    scene school
+    #play movie "images/school_wobble.ogv" loop
+    scene movie with fade
 
     # Change to School animation CG
 
