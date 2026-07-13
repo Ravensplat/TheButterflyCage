@@ -1,6 +1,7 @@
 label flashback3:
     #FLASHBACK 3
     scene bg_bar with fade
+    play music "audio/Bar.mp3" loop fadeout 1.0 fadein 3.0
     # ciara_apologetic_wink_speaking
     show c_ap_w_sp at char_right with dissolve
     # lil_bar_neutral
@@ -87,6 +88,8 @@ label flashback3:
     nrt "She shot you both outrageous winks on her way out, as you stammered a goodbye and Lillian remained significantly more composed about the whole matter."
     # ciara leaves the scene
     hide c_ch_w with moveoutright
+    hide l_bar_h_bl
+    show l_bar_h_bl at move_to_centre
     nrt "Alright, pause for a second here. Stupid as you are, you’re not that dense. And Ciara is not that subtle at the best of times, and even by her standards, this was laying it on thick."
     nrt "Your old uni bestie was trying to wingwoman you. With Lillian. Why the hell was she doing that."
     # nat_dejected_smile
@@ -100,7 +103,8 @@ label flashback3:
 
     nrt "You’re right, it is crazy to even think that. Delusional, even. The product of a diseased mind drunk on its own delirium."
     nrt "But also, based on the available evidence, seemingly true."
-    nrt "That or this is all an elaborate long con, and when you admit that you fancied her back at uni and fancy her even harder now, the walls will fall down revealing a camera crew and all your school bullies and your entire extended family laughing at you for your audacity."
+    nrt "That or this is all an elaborate long con, and when you admit that you fancied her back at uni and fancy her even harder now..."
+    nrt "The walls will fall down revealing a camera crew and all your school bullies and your entire extended family laughing at you for your audacity."
     # nat_neutral
     nth ne "(OK but like, probably not, right?)"
 
@@ -123,7 +127,7 @@ label flashback3:
     nrt "Time to see just how badly you missed the open goal she set up for you, eh?"
     # lil_bar_neutral_smile_talking
     hide l_bar_h_bl
-    show l_bar_n_s_sp at move_to_centre
+    show l_bar_n_s_sp
     lil "I see she’s as lively a character as ever."
     # lil_bar_neutral_smile
     hide l_bar_n_s_sp
@@ -222,14 +226,14 @@ label flashback3:
     # nat_bar_neutral_sideeye_speaking
     nat bar_sd_sp "Ciara’s meant to be one of my best friends, right?"
     # nat_bar_sad_speaking
-    nat bar_sa_sp "So close that I’ve barely spoken to her in three years…"
+    nat bar_sa_ec_s "So close that I’ve barely spoken to her in three years…"
     # lil_bar_sad_speaking
     hide l_bar_su
-    show l_bar_sa_sp
+    show l_bar_s_sp
     lil "Did the two of you have a falling out, or something?"
     # nat_bar_neutral_sideeye_speaking
     # lil_bar_sad
-    hide l_bar_sa_sp
+    hide l_bar_s_sp
     show l_bar_sa
     nat bar_ne_sd_sp "No, not at all. It’s more like…"
 
@@ -243,7 +247,7 @@ label flashback3:
 
     nrt "You laughed bitterly, swigging down the last of your drink as Lillian gazed on. Concerned? Worried? Intrigued? You couldn’t tell then and it’s harder to remember now."
     # nat_bar_sad_speaking
-    nat bar_sa_sp "Like I know it’s not fair. I know it’s not her fault. But any time I see her goddamn profile pic on Facebook, partying on some beach or other, I feel this horrible curdling in my stomach."
+    nat bar_sa_ec_sp "Like I know it’s not fair. I know it’s not her fault. But any time I see her goddamn profile pic on Facebook, partying on some beach or other, I feel this horrible curdling in my stomach."
     # nat_bar_angry_speaking
     nat bar_ag_sp "Here I am coming up on my fifth year of service at fucking Tesco, while she waltzed into a high-paying finance job right out of uni."
     # nat_bar_annoyed_speaking
@@ -261,17 +265,17 @@ label flashback3:
     nrt "Against all odds, to your great surprise, Lillian reached out and brushed away the tears that had been forming on your cheek."
     nrt "You melted into her touch, all but sobbing into her. She pulled you closer, letting you shake in her arms. Maybe people were staring. You didn’t care."
     # nat_bar_sad_speaking
-    nat bar_sa_sp "And I feel so shitty cause it’s not like it’s her fault she has such a great life."
+    nat bar_sa_ec_sp "And I feel so shitty cause it’s not like it’s her fault she has such a great life."
     # nat_bar_sad_speaking
-    nat bar_sa_sp "What’s she meant to do, not get a first on her extremely prestigious degree? Not get a great job with that qualification? Not spend the money from that job doing stuff that makes her happy?"
+    nat bar_sa_ec_sp "What’s she meant to do, not get a first on her extremely prestigious degree? Not get a great job with that qualification? Not spend the money from that job doing stuff that makes her happy?"
     # nat_bar_sad_eyesclosed_speaking
     nat bar_sa_ec_sp "Suffer like I have?"
     # lil_bar_sad_speaking
     hide l_bar_sy
-    show l_bar_sa_sp
+    show l_bar_s_sp
     lil "Oh, Nat."
     # lil_bar_sad
-    hide l_bar_sa_sp
+    hide l_bar_s_sp
     show l_bar_sa
     nrt "Lillian started rubbing soothing circles into your hair. You were sobbing openly now. Good god you were pathetic."
     nrt "She whispered softly to you as you cried, giving you the comfort you hadn’t felt in… You couldn’t even remember the last time you felt like that."
@@ -291,42 +295,44 @@ label flashback3:
 
     # lil_bar_sad_speaking
     hide l_bar_ag
-    show l_bar_sa_sp 
+    show l_bar_s_sp 
     lil "Tell me about it."
     # lil_bar_sad
-    hide l_bar_sa_sp
+    hide l_bar_s_sp
     show l_bar_sa
     # nat_bar_surprised_speaking
     nat bar_su_sp "About… it? What?"
     # lil_bar_sad_speaking
     hide l_bar_sa
-    show l_bar_sa_sp 
+    show l_bar_s_sp 
     lil "Your life. Your worries. The things that make you so distressed."
     lil "I want to know what’s made you so hurt."
     # lil_bar_sad
-    hide l_bar_sa_sp
+    hide l_bar_s_sp
     show l_bar_sa
     # nat_bar_sad_speaking
-    nat bar_sa_sp "Oh. Um. Everything, kinda?"
+    nat bar_su_sp "Oh. Um. Everything, kinda?"
     # nat_bar_sad_eyeclosed_speaking
     nat bar_sa_ec_sp "I hate my job. I hate knowing that I’m overqualified for it but feeling useless anyway. I hate that my boss keeps promoting white guys who suck his dick while I do way better numbers than them."
     # nat_bar_angry_speaking
     nat bar_ag_sp "I hate that I even know about my fucking numbers. I hate this fucking job so fucking much it makes me want to fucking kill myself, but that would require me to actually get off my lazy bitch ass and do it."
     # nat_bar_sad_eyeclosed_speaking
-    nat bar_sa_ec_sp "I hate that I have nothing going on at all. I hate that I have no hobbies and no friends, I hate that I don’t meet anyone. I hate that any time anyone asks me what I’ve done I don’t have anything to say cause I haven’t done anything cause I may as well not fucking exist."
+    nat bar_sa_ec_sp "I hate that I have nothing going on at all. "
+    nat bar_sa_ec_sp "I hate that I have no hobbies and no friends, I hate that I don’t meet anyone. I hate that any time anyone asks me what I’ve done I don’t have anything to say cause I haven’t done anything cause I may as well not fucking exist."
     # nat_bar_angry_speaking
     nat bar_ag_sp "I hate that my parents are supporting my little brother the whole way through his uni while they barely did anything for me. I hate that I let Ciara talk shit on my family, and I hate that I didn’t join in shitting on them harder."
     # nat_bar_sad_speaking
-    nat bar_sa_sp "…I fucking hate being a lesbian sometimes. And I hate thinking that because then they fucking win. But I fucking hate that no one ever gets it, you know?"
+    nat bar_sa_ec_sp "…I fucking hate being a lesbian sometimes. And I hate thinking that because then they fucking win. But I fucking hate that no one ever gets it, you know?"
     # lil_bar_sad_speaking
     hide l_bar_sa
-    show l_bar_sa_sp 
+    show l_bar_s_sp 
     lil "I know."
     # lil_bar_sad
-    hide l_bar_sa_sp
+    hide l_bar_s_sp
     show l_bar_sa
     nrt "And Lillian did know. You could tell, in that moment, as her grip tightened ever so slightly on you. She understood."
-    nrt "She felt that alienation you did, the unspoken disconnect from everyone else you meet. The men for whom you’re either a punchline, a fetish, or both. The women who become just a little more stand-offish once they know you might want to fuck them."
+    nrt "She felt that alienation you did, the unspoken disconnect from everyone else you meet. The men for whom you’re either a punchline, a fetish, or both. "
+    nrt "The women who become just a little more stand-offish once they know you might want to fuck them."
     nrt "It shouldn’t be so basic. It should be more complex than that, in this day and age. You have all the rights, all the societal acceptance. You get to see girls kissing girls on any TV shows you want."
     nrt "But it never stops the gut reactions. The little ways people change once they know. Consciously or subconsciously, but always there, always painting you in their minds as someone different. Someone other."
     nrt "As if you weren’t used to that already."
@@ -385,7 +391,7 @@ label flashback3:
     # nat_bar_neutral_speaking
     nat bar_ne_sp "Thanks."
     # nat_bar_shy_blush_speaking
-    nat bar_sh_bl_sp "You’re… so amazing, Lillian."
+    nat bar_ne_sd_bl_sp "You’re… so amazing, Lillian."
     # lil_bar_happy_blush_speaking
     hide l_bar_fl
     show l_bar_h_bl_sp
