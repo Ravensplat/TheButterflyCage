@@ -32,6 +32,8 @@ transform move_to_right:
 
 transform move_to_centre:
     easeout 0.5 xalign 0.5
+    yalign 1.0
+
 
 
 image tb_n:
