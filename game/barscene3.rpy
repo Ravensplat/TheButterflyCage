@@ -238,10 +238,11 @@ label flashback3:
     nat bar_ne_sd_sp "No, not at all. It’s more like…"
 
     nrt "You hesitated for a moment then, chewing on your lip, unsure if you should say what you were going to say next."
-    nrt "No, definitely sure that you shouldn’t say it. But the combination of alcohol and attraction and vulnerability and the whirlwind of actually having a night you’d enjoyed for the first time in months, if not years, all led to the surge of adrenaline that led to you blurting out,"
+    nrt "No, definitely sure that you shouldn’t say it. "
+    nrt "But the combination of alcohol and attraction and vulnerability and the whirlwind of actually having a night you’d enjoyed for the first time in months, if not years, all led to the surge of adrenaline that led to you blurting out,"
 
     # nat_bar_sad_speaking
-    nat bar_sa_sp "I just feel so jealous of her. Any time I think of her."
+    nat bar_sa_ec_sp "I just feel so jealous of her. Any time I think of her."
     # nat_bar_sad_eyesclosed_speaking
     nat bar_sa_ec_sp "Like she has this amazing life, while I’m here being the girl everyone compares their life to just so they can say, “Well at least it’s not that bad!”"
 
@@ -397,6 +398,7 @@ label flashback3:
     show l_bar_h_bl_sp
     lil "Oh, not at all."
     # lil_bar_flirting_speaking
+    stop music fadeout 1.5
     hide l_bar_h_bl_sp
     show l_bar_fl_sp
     lil "I only want what’s best for you, Natalie."
