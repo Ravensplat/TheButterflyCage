@@ -50,6 +50,12 @@ image tb_nar:
 image bed_day:
     "bedroom_day"
     zoom 0.5
+image bed_night:
+    "bedroom_night"
+    zoom 0.5
+
+image cuddleCG:
+    "images/cuddle.png"
 
 image bg_bar:
     "bar"
