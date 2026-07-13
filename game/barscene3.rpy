@@ -399,3 +399,5 @@ label flashback3:
     show l_bar_fl
     nrt "You think you might have been about to blurt out something about how much you wanted to kiss her. Or maybe you actually did try to kiss her. Maybe you just faceplanted back into her shoulder again."
     nrt "You can’t tell. You might never be able to tell. From that point on, the rest of the night is nothing but a hazy blur."
+
+    jump scene4
