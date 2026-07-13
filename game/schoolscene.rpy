@@ -123,3 +123,5 @@ label flashback3:
     nrt "No. Because you had to. Because she was assigned to your group, and if not you’d have just admired her in fear and awe from afar."
     nrt "Even this connection, one of the few things that can make you feel whole, is something you fluked into and nearly ruined on multiple occasions."
     nrt "Like just now."
+
+    jump scene3b
