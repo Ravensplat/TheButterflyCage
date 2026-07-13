@@ -52,6 +52,9 @@ image bed_night:
     "bedroom_night"
     zoom 0.5
 
+image cuddleCG:
+    "images/cuddle.png"
+
 image bg_bar:
     "bar"
     zoom 0.5

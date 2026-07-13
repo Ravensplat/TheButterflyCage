@@ -228,11 +228,12 @@ label scene4:
     nrt "And begins to sing."
     # Change to Alexis CG and Khaz music
     # No more character portraits during the CG.
+    scene cuddleCG
     nrt "She sings softly, wordlessly. A melody that is at once simple and complex, filling your senses. You don’t know whether to feel soothed or threatened, secured or trapped."
     nrt "You don’t know anything about music theory, is this melody major or minor? Both? You had no idea Lillian was such a great singer. Does Lillian know music theory? Did she compose this song just for you? Or is she making it up on the spot?"
     nrt "The tenseness begins to leave your body as Lillian sings into your soul, rubbing the same soothing circles into your hair as she did last night at the bar."
 
-    nth "(At the bar…)"
+    nth n"(At the bar…)"
     nat "Lillian…"
 
     nrt "You take in a quick breath, then choke it out. You can’t just ask this, surely? Not while she’s singing to you, holding you, giving you everything you could have ever dreamed of."
