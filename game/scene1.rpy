@@ -1,6 +1,7 @@
 label start: 
 
     scene black_bg at double
+    stop music
     
 
     # Open on black screen. Not sure if it should be no music or like quiet ambient stuff, will have to ask Khaz.
@@ -153,7 +154,7 @@ label start:
     # Insert door opening SFX
     # Change music to Lillian’s Theme
     # Lillian appears, insert l_fl_bl_sp
-    stop music
+    play music "audio/LOOPLilCasual.mp3" loop fadeout 1.0 fadein 1.0
 
     scene bedroom_day at half
     show l_fl_bl_sp 
@@ -173,21 +174,21 @@ label start:
     lil "Not a problem at all, glad I could help!"
     # Expression change to l_fl_bl_sp
     hide l_h_sp
-    show l_fl_bl_sp
+    show l_fl_sp
     lil "The banana should help a little with the hangover, and I can refill the water when you need it."
     # Expression change to nat_n_s_sp
     # Expression change to l_n_s
-    hide l_fl_bl_sp
+    hide l_fl_sp
     show l_n_s
     nat ne_s_sp "You’re literally an angel, you know that."
     # Expression change to nat_sa_sp
     nat sa_sp"Seriously, I’m so sorry I got so drunk. I dunno what the hell happened, I usually know my limits better than that."
     # Expression change to l_fl_bl_sp
     hide l_n_s
-    show l_fl_bl_sp
+    show l_fl_sp
     lil "You weren’t a bother at all, don’t worry."
     # Expression change to l_n_sp
-    hide l_fl_bl_sp
+    hide l_fl_sp
     show l_n_sp
     lil "Are you feeling alright?"
     # Expression change to l_sy
