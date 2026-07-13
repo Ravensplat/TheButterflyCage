@@ -214,7 +214,7 @@ image l_h_sp:
 image l_h:
     "lil_happy"
     zoom 0.65
-image l_n_s_bl:
+image l_h_sp_bl:
     "lil_happy_speaking_blush"
     zoom 0.65
 image l_n_s_sp:
@@ -451,3 +451,45 @@ image c_su:
     "ciara_surprised"
     zoom 0.62
 
+#bedroom 
+
+
+image l_z_ag_sp:
+    "lil_z_angry_speaking"
+    zoom 0.65
+image l_z_ag:
+    "lil_z_angry"
+    zoom 0.65
+image l_z_fl_sp:
+    "lil_z_flirty_speaking"
+    zoom 0.65
+image l_z_fl:
+    "lil_z_flirty"
+    zoom 0.65
+image l_z_h_bl_sp:
+    "lil_z_happy_blush_speaking"
+    zoom 0.65
+image l_z_h_bl:
+    "lil_z_happy_blush"
+    zoom 0.65
+image l_z_h_s_sp:
+    "lil_z_happy_smile_speaking"
+    zoom 0.65
+image l_z_h_sp:
+    "lil_z_happy_speaking"
+    zoom 0.65
+image l_z_n_s_bl:
+    "lil_z_neutral_smile_blush"
+    zoom 0.65
+image l_z_n_s_sp:
+    "lil_z_neutral_smile_speaking"
+    zoom 0.65
+image l_z_n_s: 
+    "lil_z_neutral_smile"
+    zoom 0.65
+image l_z_sa_sp:
+    "lil_z_sad_speaking"
+    zoom 0.65
+image l_z_sa:
+    "lil_z_sad"
+    zoom 0.65

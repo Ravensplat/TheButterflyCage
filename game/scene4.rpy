@@ -75,15 +75,15 @@ label scene4:
 
     nrt "You think sending cry-laughing emoji reactions every few weeks to jokes you don’t even find funny counts? "
     # nat_angry
-    nth ag "(That’s not the point! I don’t need them to come rescue me, I don’t need rescuing!)"
+    nth ag_sd "(That’s not the point! I don’t need them to come rescue me, I don’t need rescuing!)"
     # nat_dejected_smile
-    nth dj_s "(I’m just being paranoid. Lillian’s been so lovely to me all day, and yesterday. All I’ve done is complain about my shitty life.)"
+    nth dj_sm "(I’m just being paranoid. Lillian’s been so lovely to me all day, and yesterday. All I’ve done is complain about my shitty life.)"
 
     nrt "That’s all you ever do, isn’t it? You offer her nothing. You didn’t even ask how she’d been doing yesterday before you launched into bitching about your own uselessness."
     nrt "You were meant to be her supervisor, and you didn’t even ask if she finished the degree you were meant to be helping her with. Were you going to get jealous of her too?"
     nrt "It makes you wonder what Lillian could possibly be getting out of this relationship to show you such care and support…"
     # nat_angry
-    nth ag "(Shut up!)"
+    nth ag_sd "(Shut up!)"
 
     nrt "Did you think her care for you was genuine? That she would just whisk you away to her fairytale mansion, validate your every bitter complaint all day, love you unconditionally despite you offering no possible reason to do so?"
     nrt "Did you think you were anything more to her than an easy target?"
@@ -152,23 +152,28 @@ label scene4:
     nrt "The door handle turns, the door opening to reveal Lillian on the other side."
 
     # gut instinct is that juxtaposing Lillian’s dialogue with something like lil_angry_speaking could go insane here, but maybe it’s easier to just go lil_happy_speaking idk
-    show l_z_ag_sp
+    show l_z_n_s_sp
     lil "Nat! You’re up! That’s wonderful!"
     # nat_sympathetic_speaking
+    hide l_z_n_s_sp
+    show l_z_n_s
     nat sy_sp "Oh. Uh. Yeah I— Um. Wanted to stretch my legs a bit. Y’know. Lying in bed all day haha."
 
     nrt "Are you crazy? She kidnapped you! Say something!"
     # same as above, angry could go super hard but maybe neutral smile is the sensible option
-
+    hide l_z_n_s
+    show l_z_n_s_sp
     lil "That’s lovely. It’s getting rather late, though. Unfortunate timing, I know, but let’s get you back to bed, shall we?"
     # nat_neutral_sideeye_speaking
+    hide l_z_n_s_sp
+    show l_z_n_s
     nat ne_sd_sp"Um. OK…"
 
     nrt "Lillian steps beside you, calmly but firmly hooking an arm under your shoulder as she closes the door behind her with a resounding click of finality."
     nrt "You say nothing as she slowly ushers you across the short expanse of floor to the bed. Your body still feels sluggish, and the assistance is honestly quite helpful, considering how difficult it was for you to make it to the door in the first place."
     nrt "The irony should not be lost on you that, despite Lilllian’s assistance, she is the reason you need help in the first place."
     # lil_happy_speaking
-    hide l_z_ag_sp
+    hide l_z_n_s_sp
     show l_z_h_sp
     lil "There, that’s better."
     # lil_sad_speaking
@@ -199,7 +204,7 @@ label scene4:
     nat su_bl_sp "Oh!"
     # lil_happy_speaking_blush
     hide l_z_n_s
-    show l_z_bl_sp
+    show l_z_h_bl_sp
     lil "I hope this isn’t uncomfortable? There’s plenty of space."
     # lil_neutral_smile_blush
     hide l_z_bl_sp
