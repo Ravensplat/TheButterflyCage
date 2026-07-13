@@ -8,7 +8,8 @@ label start:
 
     nrt "You wake up feeling like shit."
     nrt "Wait, that probably needs a little clarification. After all, most days you feel kind of shit."
-    nrt "Your terrible sleep pattern, poor diet, and general inability to look after yourself makes waking up a taxing ordeal at the best of times. But even by your usual low standards, this is far above and beyond the normal, everyday feeling like shit."
+    nrt "Your terrible sleep pattern, poor diet, and general inability to look after yourself makes waking up a taxing ordeal at the best of times. "
+    nrt "But even by your usual low standards, this is far above and beyond the normal, everyday feeling like shit."
     nrt "This is {b}advanced{/b} feeling like shit."
     nrt "Your brain feels like it’s being forced through a grated tube that it doesn’t quite fit through."
     nrt "Your dry mouth tastes distinctly of metal, like you spent the whole night chewing on copper coins."
@@ -53,6 +54,7 @@ label start:
     # Room background fully comes into focus, removing the blur.
     scene bedroom_day at half with dissolve
 
+    play music "audio/casual.mp3" loop
     #Expression change to nat_n_s
     nth ne_s "Holy shit this place is {i}fancy.{/i} Hotel room?"
     nrt "What kind of hotel room has taxidermy butterflies on the wall, you idiot."
@@ -146,10 +148,14 @@ label start:
 
     # Expression change to nat_su_sp
     nat "Holy shit I was out with Lil—"
-    scene bedroom_day at half
+    #show lil_intro
+
     # Insert door opening SFX
     # Change music to Lillian’s Theme
     # Lillian appears, insert l_fl_bl_sp
+    stop music
+
+    scene bedroom_day at half
     show l_fl_bl_sp 
     lil "Nat! You’re awake!"
     # Expression change to nat_su_sp

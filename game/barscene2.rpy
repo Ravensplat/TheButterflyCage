@@ -301,3 +301,5 @@ wai "Your strawberry daiquiris, ladies."
 nrt "Well, at least the arrival of your second drink spared you any further stuttering."
 
 nrt "Final Score: Lillian infinity for nothing; Natalie 1, all out."
+
+jump scene3a
