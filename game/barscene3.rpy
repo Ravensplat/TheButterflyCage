@@ -87,229 +87,315 @@ label flashback3:
     nrt "She shot you both outrageous winks on her way out, as you stammered a goodbye and Lillian remained significantly more composed about the whole matter."
     # ciara leaves the scene
     hide c_ch_w with move_to_right
-    Alright, pause for a second here. Stupid as you are, you’re not that dense. And Ciara is not that subtle at the best of times, and even by her standards, this was laying it on thick.
-    Your old uni bestie was trying to wingwoman you. With Lillian. Why the hell was she doing that.
+    nrt "Alright, pause for a second here. Stupid as you are, you’re not that dense. And Ciara is not that subtle at the best of times, and even by her standards, this was laying it on thick."
+    nrt "Your old uni bestie was trying to wingwoman you. With Lillian. Why the hell was she doing that."
     # nat_dejected_smile
-    nth Girl I wish I knew.
+    nth dj_s "Girl I wish I knew."
     # nat_neutral_smile_blush
-    nth I don’t think I ever told her I was into Lillian at uni but I guess it would have been obvious enough, right?
+    nth ne_s_bl "I don’t think I ever told her I was into Lillian at uni but I guess it would have been obvious enough, right?"
 
-    Definitely.
+    nrt "Definitely."
     # nat_shy_blush
-    nth And judging by today, crazy as it is to even think, Lillian seems to be… Maybe a little bit… Kind of… Into me?
+    nth sh_bl "And judging by today, crazy as it is to even think, Lillian seems to be… Maybe a little bit… Kind of… Into me?"
 
-    You’re right, it is crazy to even think that. Delusional, even. The product of a diseased mind drunk on its own delirium.
-    But also, based on the available evidence, seemingly true.
-    That or this is all an elaborate long con, and when you admit that you fancied her back at uni and fancy her even harder now, the walls will fall down revealing a camera crew and all your school bullies and your entire extended family laughing at you for your audacity.
+    nrt "You’re right, it is crazy to even think that. Delusional, even. The product of a diseased mind drunk on its own delirium."
+    nrt "But also, based on the available evidence, seemingly true."
+    nrt "That or this is all an elaborate long con, and when you admit that you fancied her back at uni and fancy her even harder now, the walls will fall down revealing a camera crew and all your school bullies and your entire extended family laughing at you for your audacity."
     # nat_neutral
-    nth OK but like, probably not, right?
+    nth ne "OK but like, probably not, right?"
 
-    The chances are never zero.
-    That or you’re misreading signs, it wouldn’t be the first time.
+    nrt "The chances are never zero."
+    nrt "That or you’re misreading signs, it wouldn’t be the first time."
     # nat_annoyed
-    nth Alright we don’t have time for the highlight reel of my embarrassing secondary school crushes on straight girls.
+    nth an "Alright we don’t have time for the highlight reel of my embarrassing secondary school crushes on straight girls."
 
-    You sure?
+    nrt "You sure?"
     # nat_annoyed
-    nth Let’s pretend we went through it in excruciating detail and I was very embarrassed and then get back to the point.
+    nth an "Let’s pretend we went through it in excruciating detail and I was very embarrassed and then get back to the point."
 
-    If you insist.
+    nrt "If you insist."
     # nat_neutral_smile_blush
-    nth Besides, Lillian’s actually gay, I’ve known that much for years.
+    nth ne_s_bl "Besides, Lillian’s actually gay, I’ve known that much for years."
     # nat_shy_blush
-    nth And maybe got a little first-hand evidence of that last night? If I can remember anything.
+    nth sh_bl "And maybe got a little first-hand evidence of that last night? If I can remember anything."
 
-    Your attempts to remember the conversation after Ciara’s departure are a little hazy, yes. Mostly due to the fact that you were now alone with Lillian after Ciara all but yelled that she’d been wingwomaning for you.
-    Time to see just how badly you missed the open goal she set up for you, eh?
+    nrt "Your attempts to remember the conversation after Ciara’s departure are a little hazy, yes. Mostly due to the fact that you were now alone with Lillian after Ciara all but yelled that she’d been wingwomaning for you."
+    nrt "Time to see just how badly you missed the open goal she set up for you, eh?"
     # lil_bar_neutral_smile_talking
-    lil I see she’s as lively a character as ever.
+    hide l_bar_h_bl
+    show l_bar_n_s_sp with move_to_right
+    lil "I see she’s as lively a character as ever."
     # lil_bar_neutral_smile
-    Oh. Yes it would make sense that you talked about the fact she just up and left, even while avoiding the elephant in the room of how she left.
+    hide l_bar_n_s_sp
+    show l_bar_n_s
+    nrt "Oh. Yes it would make sense that you talked about the fact she just up and left, even while avoiding the elephant in the room of how she left."
     # nat_bar_happy_speaking
-    nat Haha, yeah.
+    nat bar_h_sp "Haha, yeah."
     # nat_neutral_sideeye_blush
-    nth That laugh didn’t sound too awkward, did it?
+    nth ne_sd_bl "That laugh didn’t sound too awkward, did it?"
 
-    Girl you already know.
+    nrt "Girl you already know."
     # nat_bar_neutral_smile_speaking
-    nat As far as I can tell, she hasn’t really changed since uni, just become even more like herself.
+    nat bar_ne_s_sp "As far as I can tell, she hasn’t really changed since uni, just become even more like herself."
     # nat_bar_happy_speaking
-    nat Ciara Plus Plus.
+    nat bar_h_sp "Ciara Plus Plus."
     # lil_bar_happy_speaking
-    lil Haha!
+    hide l_bar_n_s
+    show l_bar_h_sp
+    lil "Haha!"
     # lil_bar_neutral_speaking
-    lil Although, if you don’t mind my asking.
+    hide l_bar_h_sp
+    show l_bar_n_sp
+    lil "Although, if you don’t mind my asking."
     # lil_bar_surprised_speaking
-    lil “As far as you can tell?” I’d assumed the two of you were in regular contact.
+    hide l_bar_n_sp
+    show l_bar_su_sp
+    lil "“As far as you can tell?” I’d assumed the two of you were in regular contact."
     # lil_bar_surprised
-    A sharp pang of guilt shot into you at that point. Your guilt at having not met up with Ciara in years had been mostly assuaged by the easy conversation tonight, and more to the point, the fact Ciara hadn’t brought it up.
-    But the fact Lillian noticed, when she hasn’t seen either of you in even longer…
+    hide l_bar_su_sp
+    show l_bar_su
+    nrt "A sharp pang of guilt shot into you at that point. Your guilt at having not met up with Ciara in years had been mostly assuaged by the easy conversation tonight, and more to the point, the fact Ciara hadn’t brought it up."
+    nrt "But the fact Lillian noticed, when she hasn’t seen either of you in even longer…"
     # lil_bar_surprised_speaking
-    lil You were thick as thieves back at RCS. Felt like the only time I saw you without her was in lectures or supervisions.
+    hide l_bar_su
+    show l_bar_su_sp
+    lil "You were thick as thieves back at RCS. Felt like the only time I saw you without her was in lectures or supervisions."
     # lil_bar_surprised
+    hide l_bar_su_sp
+    show l_bar_su
     # nat_bar_neutral_speaking
-    nat Pretty much, yeah. I basically became her little pet introvert from day one meeting in halls.
+    nat bar_ne_sp "Pretty much, yeah. I basically became her little pet introvert from day one meeting in halls."
     # nat_bar_apologetic_speaking
-    nat Probably would’ve spent the whole of undergrad sat in my room watching gay cartoons if not for her dragging me out of my shell.
+    nat bar_ap_sp "Probably would’ve spent the whole of undergrad sat in my room watching gay cartoons if not for her dragging me out of my shell."
 
-    As if you didn’t manage that anyway.
+    nrt "As if you didn’t manage that anyway."
     # lil_bar_neutral_speaking
-    lil You say that as if you might have preferred it that way.
+    hide l_bar_su
+    show l_bar_n_sp
+    lil "You say that as if you might have preferred it that way."
     # lil_bar_neutral
+    hide l_bar_n_sp
+    show l_bar_n
     # nat_bar_neutral_speaking
-    nat Not really? Maybe a little. She can be a lot, sometimes.
+    nat bar_ne_sp "Not really? Maybe a little. She can be a lot, sometimes."
     # nat_bar_apologetic_speaking
-    nat Like, not every experience she took me to was the greatest night of my life or anything, but I’m still grateful she gave me the chance to find out, right?
+    nat bar_ap_sp "Like, not every experience she took me to was the greatest night of my life or anything, but I’m still grateful she gave me the chance to find out, right?"
     # nat_bar_neutral_smile_blush_speaking
-    nat Or like, I’m really glad she invited me tonight, of course.
+    nat bar_ne_s_bl_sp "Or like, I’m really glad she invited me tonight, of course."
     # lil_bar_neutral_smile_blush_speaking
-    lil As am I.
+    hide l_bar_n
+    show l_bar_n_s_bl_sp
+    lil "As am I."
     # lil_bar_neutral_speaking
-    lil I suppose I’d simply assumed this was a regular hangout for you two that I had been graciously invited to.
+    hide l_bar_n_s_bl_sp
+    show l_bar_n_sp
+    lil "I suppose I’d simply assumed this was a regular hangout for you two that I had been graciously invited to."
     # lil_bar_neutral_smile_speaking
-    lil I was actually feeling rather flattered with how welcomed you made me feel, despite the closeness you two share.
+    hide l_bar_n_sp
+    show l_bar_n_s_sp
+    lil "I was actually feeling rather flattered with how welcomed you made me feel, despite the closeness you two share."
     # lil_bar_neutral_smile
+    hide l_bar_n_s_sp
+    show l_bar_n_s
     # nat_neutral_speaking
-    nat Oh. Yeah I guess we haven’t really hung out in a while. We chat on Facebook sometimes, I guess.
-    nat She helped me settle into my flat after I moved away from uni, so I saw her a few times that first year, but not really at all since then.
+    nat ne_sp "Oh. Yeah I guess we haven’t really hung out in a while. We chat on Facebook sometimes, I guess."
+    nat ne_sp "She helped me settle into my flat after I moved away from uni, so I saw her a few times that first year, but not really at all since then."
     # lil_bar_neutral_speaking
-    lil I see.
+    hide l_bar_n_s
+    show l_bar_n_sp
+    lil "I see."
     # lil_bar_apologetic_speaking
-    lil Sorry, I didn’t mean to pry.
+    hide l_bar_n_sp
+    show l_bar_ap_sp
+    lil "Sorry, I didn’t mean to pry."
     # lil_bar_surprised_speaking
-    lil You just seemed… relieved, when she left. If that’s not impolite to say.
+    hide l_bar_ap_sp
+    show l_bar_su_sp
+    lil "You just seemed… relieved, when she left. If that’s not impolite to say."
     # lil_bar_surprised
+    hide l_bar_su_sp
+    show l_bar_su
     # nat_bar_neutral_sideeye_speaking
-    nat Oh, really?
+    nat bar_ne_sd_sp "Oh, really?"
     # nat_bar_sad_speaking
-    nat Sorry, pretty rude of me.
+    nat bar_sa_sp "Sorry, pretty rude of me."
     # nat_bar_neutral_sideeye_speaking
-    nat Ciara’s meant to be one of my best friends, right?
+    nat bar_ne_sd_sp "Ciara’s meant to be one of my best friends, right?"
     # nat_bar_sad_speaking
-    nat So close that I’ve barely spoken to her in three years…
+    nat bar_sa_sp "So close that I’ve barely spoken to her in three years…"
     # lil_bar_sad_speaking
-    lil Did the two of you have a falling out, or something?
+    hide l_bar_su
+    show l_bar_sa_sp
+    lil "Did the two of you have a falling out, or something?"
     # nat_bar_neutral_sideeye_speaking
     # lil_bar_sad
-    nat No, not at all. It’s more like…
+    hide l_bar_sa_sp
+    show l_bar_sa
+    nat bar_ne_sd_sp "No, not at all. It’s more like…"
 
-    You hesitated for a moment then, chewing on your lip, unsure if you should say what you were going to say next.
-    No, definitely sure that you shouldn’t say it. But the combination of alcohol and attraction and vulnerability and the whirlwind of actually having a night you’d enjoyed for the first time in months, if not years, all led to the surge of adrenaline that led to you blurting out,
+    nrt "You hesitated for a moment then, chewing on your lip, unsure if you should say what you were going to say next."
+    nrt "No, definitely sure that you shouldn’t say it. But the combination of alcohol and attraction and vulnerability and the whirlwind of actually having a night you’d enjoyed for the first time in months, if not years, all led to the surge of adrenaline that led to you blurting out,"
 
     # nat_bar_sad_speaking
-    nat I just feel so jealous of her. Any time I think of her.
+    nat bar_sa_sp "I just feel so jealous of her. Any time I think of her."
     # nat_bar_sad_eyesclosed_speaking
-    nat Like she has this amazing life, while I’m here being the girl everyone compares their life to just so they can say, “Well at least it’s not that bad!”
+    nat bar_sa_ec_sp "Like she has this amazing life, while I’m here being the girl everyone compares their life to just so they can say, “Well at least it’s not that bad!”"
 
-    You laughed bitterly, swigging down the last of your drink as Lillian gazed on. Concerned? Worried? Intrigued? You couldn’t tell then and it’s harder to remember now.
+    nrt "You laughed bitterly, swigging down the last of your drink as Lillian gazed on. Concerned? Worried? Intrigued? You couldn’t tell then and it’s harder to remember now."
     # nat_bar_sad_speaking
-    nat Like I know it’s not fair. I know it’s not her fault. But any time I see her goddamn profile pic on Facebook, partying on some beach or other, I feel this horrible curdling in my stomach.
+    nat bar_sa_sp "Like I know it’s not fair. I know it’s not her fault. But any time I see her goddamn profile pic on Facebook, partying on some beach or other, I feel this horrible curdling in my stomach."
     # nat_bar_angry_speaking
-    nat Here I am coming up on my fifth year of service at fucking Tesco, while she waltzed into a high-paying finance job right out of uni.
+    nat bar_ag_sp "Here I am coming up on my fifth year of service at fucking Tesco, while she waltzed into a high-paying finance job right out of uni."
     # nat_bar_annoyed_speaking
-    nat I barely leave my flat, and she’s going out on amazing holidays to Spain with the money she makes from that great job, having sex with all the beautiful people she wants while I’ve not even had a girl look at me since uni—
+    nat bar_an_sp "I barely leave my flat, and she’s going out on amazing holidays to Spain with the money she makes from that great job, having sex with all the beautiful people she wants while I’ve not even had a girl look at me since uni—"
 
-    You froze up after that one. That was too far. The whole thing had been too far. You were supposed to be catching up with friends, not going on a tirade about the fact your supposed closest friend actually enjoyed her life.
-    Lillian was staring at you, not interrupting your rant. She was going to be so disappointed. She must have hated you. Who wouldn’t, after some shit like that.
+    nrt "You froze up after that one. That was too far. The whole thing had been too far. You were supposed to be catching up with friends, not going on a tirade about the fact your supposed closest friend actually enjoyed her life."
+    nrt "Lillian was staring at you, not interrupting your rant. She was going to be so disappointed. She must have hated you. Who wouldn’t, after some shit like that."
     # lil_bar_sad_speaking
-    lil …I didn’t realise you’d been having it so hard, Nat. I’m so sorry.
+    hide l_bar_sa
+    show l_bar_ap_ns_sp
+    lil "…I didn’t realise you’d been having it so hard, Nat. I’m so sorry."
     # lil_bar_sympathetic
-    Against all odds, to your great surprise, Lillian reached out and brushed away the tears that had been forming on your cheek.
-    You melted into her touch, all but sobbing into her. She pulled you closer, letting you shake in her arms. Maybe people were staring. You didn’t care.
+    hide l_bar_ap_ns_sp
+    show l_bar_sy
+    "Against all odds, to your great surprise, Lillian reached out and brushed away the tears that had been forming on your cheek."
+    "You melted into her touch, all but sobbing into her. She pulled you closer, letting you shake in her arms. Maybe people were staring. You didn’t care."
     # nat_bar_sad_speaking
-    nat And I feel so shitty cause it’s not like it’s her fault she has such a great life.
+    nat bar_sa_sp "And I feel so shitty cause it’s not like it’s her fault she has such a great life."
     # nat_bar_sad_speaking
-    nat What’s she meant to do, not get a first on her extremely prestigious degree? Not get a great job with that qualification? Not spend the money from that job doing stuff that makes her happy?
+    nat bar_sa_sp "What’s she meant to do, not get a first on her extremely prestigious degree? Not get a great job with that qualification? Not spend the money from that job doing stuff that makes her happy?"
     # nat_bar_sad_eyesclosed_speaking
-    nat Suffer like I have?
+    nat bar_sa_ec_sp "Suffer like I have?"
     # lil_bar_sad_speaking
-    lil Oh, Nat.
+    hide l_bar_sy
+    show l_bar_sa_sp
+    lil "Oh, Nat."
     # lil_bar_sad
-    Lillian started rubbing soothing circles into your hair. You were sobbing openly now. Good god you were pathetic.
-    She whispered softly to you as you cried, giving you the comfort you hadn’t felt in… You couldn’t even remember the last time you felt like that.
+    hide l_bar_sa_sp
+    show l_bar_sa
+    nrt "Lillian started rubbing soothing circles into your hair. You were sobbing openly now. Good god you were pathetic."
+    nrt "She whispered softly to you as you cried, giving you the comfort you hadn’t felt in… You couldn’t even remember the last time you felt like that."
 
-    Waitress: Excuse me, miss, is everything alright? Anything I can do—
+    wai "Excuse me, miss, is everything alright? Anything I can do—"
     # lil_bar_angry_speaking
-    lil She’s fine.
-    lil Bring her a glass of water.
+    hide l_bar_sa
+    show l_bar_ag_sp
+    lil "She’s fine."
+    lil "Bring her a glass of water."
     # lil_bar_angry
-    Waitress: Oh. Of course, right away.
+    hide l_bar_ag_sp
+    show l_bar_ag
+    wai "Oh. Of course, right away."
 
-    The waitress scurried away as you continued to sob, clutching to Lillian like the lifeline she was.
+    nrt "The waitress scurried away as you continued to sob, clutching to Lillian like the lifeline she was."
 
     # lil_bar_sad_speaking
-    lil Tell me about it.
+    hide l_bar_ag
+    show l_bar_sa_sp 
+    lil "Tell me about it."
     # lil_bar_sad
+    hide l_bar_sa_sp
+    show l_bar_sa
     # nat_bar_surprised_speaking
-    nat About… it? What?
+    nat bar_su_sp "About… it? What?"
     # lil_bar_sad_speaking
-    lil Your life. Your worries. The things that make you so distressed.
-    lil I want to know what’s made you so hurt.
+    hide l_bar_sa
+    show l_bar_sa_sp 
+    lil "Your life. Your worries. The things that make you so distressed."
+    lil "I want to know what’s made you so hurt."
     # lil_bar_sad
+    hide l_bar_sa_sp
+    show l_bar_sa
     # nat_bar_sad_speaking
-    nat Oh. Um. Everything, kinda?
+    nat bar_sa_sp "Oh. Um. Everything, kinda?"
     # nat_bar_sad_eyeclosed_speaking
-    nat I hate my job. I hate knowing that I’m overqualified for it but feeling useless anyway. I hate that my boss keeps promoting white guys who suck his dick while I do way better numbers than them.
+    nat bar_sa_ec_sp "I hate my job. I hate knowing that I’m overqualified for it but feeling useless anyway. I hate that my boss keeps promoting white guys who suck his dick while I do way better numbers than them."
     # nat_bar_angry_speaking
-    nat I hate that I even know about my fucking numbers. I hate this fucking job so fucking much it makes me want to fucking kill myself, but that would require me to actually get off my lazy bitch ass and do it.
+    nat bar_ag_sp "I hate that I even know about my fucking numbers. I hate this fucking job so fucking much it makes me want to fucking kill myself, but that would require me to actually get off my lazy bitch ass and do it."
     # nat_bar_sad_eyeclosed_speaking
-    nat I hate that I have nothing going on at all. I hate that I have no hobbies and no friends, I hate that I don’t meet anyone. I hate that any time anyone asks me what I’ve done I don’t have anything to say cause I haven’t done anything cause I may as well not fucking exist.
+    nat bar_sa_ec_sp "I hate that I have nothing going on at all. I hate that I have no hobbies and no friends, I hate that I don’t meet anyone. I hate that any time anyone asks me what I’ve done I don’t have anything to say cause I haven’t done anything cause I may as well not fucking exist."
     # nat_bar_angry_speaking
-    nat I hate that my parents are supporting my little brother the whole way through his uni while they barely did anything for me. I hate that I let Ciara talk shit on my family, and I hate that I didn’t join in shitting on them harder.
+    nat bar_ag_sp "I hate that my parents are supporting my little brother the whole way through his uni while they barely did anything for me. I hate that I let Ciara talk shit on my family, and I hate that I didn’t join in shitting on them harder."
     # nat_bar_sad_speaking
-    nat …I fucking hate being a lesbian sometimes. And I hate thinking that because then they fucking win. But I fucking hate that no one ever gets it, you know?
+    nat bar_sa_sp "…I fucking hate being a lesbian sometimes. And I hate thinking that because then they fucking win. But I fucking hate that no one ever gets it, you know?"
     # lil_bar_sad_speaking
-    lil I know.
+    hide l_bar_sa
+    show l_bar_sa_sp 
+    lil "I know."
     # lil_bar_sad
-    And Lillian did know. You could tell, in that moment, as her grip tightened ever so slightly on you. She understood.
-    She felt that alienation you did, the unspoken disconnect from everyone else you meet. The men for whom you’re either a punchline, a fetish, or both. The women who become just a little more stand-offish once they know you might want to fuck them.
-    It shouldn’t be so basic. It should be more complex than that, in this day and age. You have all the rights, all the societal acceptance. You get to see girls kissing girls on any TV shows you want.
-    But it never stops the gut reactions. The little ways people change once they know. Consciously or subconsciously, but always there, always painting you in their minds as someone different. Someone other.
-    As if you weren’t used to that already.
+    hide l_bar_sa_sp
+    show l_bar_sa
+    nrt "And Lillian did know. You could tell, in that moment, as her grip tightened ever so slightly on you. She understood."
+    nrt "She felt that alienation you did, the unspoken disconnect from everyone else you meet. The men for whom you’re either a punchline, a fetish, or both. The women who become just a little more stand-offish once they know you might want to fuck them."
+    nrt "It shouldn’t be so basic. It should be more complex than that, in this day and age. You have all the rights, all the societal acceptance. You get to see girls kissing girls on any TV shows you want."
+    nrt "But it never stops the gut reactions. The little ways people change once they know. Consciously or subconsciously, but always there, always painting you in their minds as someone different. Someone other."
+    nrt "As if you weren’t used to that already."
 
-    Waiter: Your water, miss.
+    wai "Your water, miss."
     # nat_bar_surprised_speaking
-    nat Oh! Thank you. I’m sorry.
+    nat bar_su_sp "Oh! Thank you. I’m sorry."
 
-    She clearly looked at you with concern, taking in your tear-stained mascara and general state of distraught weeping.
+    nrt "She clearly looked at you with concern, taking in your tear-stained mascara and general state of distraught weeping."
 
     # lil_bar_angry_speaking
-    lil I’ll take that.
+    hide l_bar_sa
+    show l_bar_ag_sp
+    lil "I’ll take that."
     # lil_bar_happy_speaking
-    lil Here, drink this.
+    hide l_bar_ag_sp
+    show l_bar_h_sp
+    lil "Here, drink this."
     # lil_bar_sympathetic
-    The waitress scurried away as Lillian lifted the glass to your lips. You drank it down greedily, coming a little to your senses in the process.
-    What the fuck were you doing.
+    hide l_bar_h_sp
+    show l_bar_sy
+    nrt "The waitress scurried away as Lillian lifted the glass to your lips. You drank it down greedily, coming a little to your senses in the process."
+    nrt "What the fuck were you doing."
 
     # nat_bar_surprised_speaking
-    nat Shit, I’m sorry.
+    nat bar_su_sp "Shit, I’m sorry."
     # nat_bar_sad_speaking
-    nat I’m so sorry, I ruined everything.
+    nat bar_sa_sp "I’m so sorry, I ruined everything."
     # nat_bar_awkward_speaking
-    nat I should go, I’m sorry.
+    nat bar_aw_sp "I should go, I’m sorry."
     # lil_bar_neutral_smile_speaking
-    lil Shhh, it’s alright.
+    hide l_bar_sy
+    show l_bar_n_s_sp
+    lil bar_n_s_sp "Shhh, it’s alright."
 
-    Lillian pulled you back close again, holding you tightly, whispering into your hair.
+    nrt "Lillian pulled you back close again, holding you tightly, whispering into your hair."
     # lil_bar_happy_blush_speaking
-    lil I’ve got you, Natalie.
+    hide l_bar_n_s_sp
+    show l_bar_h_bl_sp
+    lil "I’ve got you, Natalie."
     # lil_bar_happy_blush_speaking
-    lil I’m not going to let anyone hurt you ever again.
+    lil "I’m not going to let anyone hurt you ever again."
     # lil_bar_happy_blush
-    You sobbed wordlessly into her shoulder, your breathing unsteady and ragged. You couldn’t even respond to her kindness with words. Fucking wretch.
+    hide l_bar_h_bl_sp
+    show l_bar_h_bl
+    nrt "You sobbed wordlessly into her shoulder, your breathing unsteady and ragged. You couldn’t even respond to her kindness with words. Fucking wretch."
     # lil_bar_flirting_speaking
-    lil Here, have a little more water.
+    hide l_bar_h_bl
+    show l_bar_fl_sp
+    lil "Here, have a little more water."
     # lil_bar_flirting
-    Lillian offered you the cup of water again. You weren’t sure if it was your head, the tears, the two cocktails already burning in your gut, or the shitty pub glasses, but for some reason this time it tasted kind of… weird?
+    hide l_bar_fl_sp
+    show l_bar_fl
+    nrt "Lillian offered you the cup of water again. You weren’t sure if it was your head, the tears, the two cocktails already burning in your gut, or the shitty pub glasses, but for some reason this time it tasted kind of… weird?"
 
     # nat_bar_neutral_speaking
-    nat Thanks.
+    nat bar_ne_sp "Thanks."
     # nat_bar_shy_blush_speaking
-    nat You’re… so amazing, Lillian.
+    nat bar_sh_bl_sp "You’re… so amazing, Lillian."
     # lil_bar_happy_blush_speaking
-    lil Oh, not at all.
+    hide l_bar_fl
+    show l_bar_h_bl_sp
+    lil "Oh, not at all."
     # lil_bar_flirting_speaking
-    lil I only want what’s best for you, Natalie.
+    hide l_bar_h_bl_sp
+    show l_bar_fl_sp
+    lil bar_fl_sp "I only want what’s best for you, Natalie."
     # lil_bar_flirting
-    You think you might have been about to blurt out something about how much you wanted to kiss her. Or maybe you actually did try to kiss her. Maybe you just faceplanted back into her shoulder again.
-    You can’t tell. You might never be able to tell. From that point on, the rest of the night is nothing but a hazy blur.
+    hide l_bar_fl_sp
+    show l_bar_fl
+    "You think you might have been about to blurt out something about how much you wanted to kiss her. Or maybe you actually did try to kiss her. Maybe you just faceplanted back into her shoulder again."
+    "You can’t tell. You might never be able to tell. From that point on, the rest of the night is nothing but a hazy blur.""
