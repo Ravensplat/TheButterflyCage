@@ -369,7 +369,7 @@ screen main_menu():
 
         vbox:
             style "main_menu_vbox"
-
+            pos(1920, 350)
             text "[config.name!t]":
                 style "main_menu_title"
 
